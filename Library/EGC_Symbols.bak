@@ -752,25 +752,13 @@
 		(symbol "AD8232ACPZ-R7_0_1"
 			(rectangle
 				(start 0 35.56)
-				(end 26.67 1.27)
+				(end 26.67 0)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 26.67 0)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin output line

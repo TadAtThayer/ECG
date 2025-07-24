@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ECG_Footprints")(type "KiCad")(uri "/Users/d66317d/Code/Boards/ECG/Library/footprints.pretty")(options "")(descr ""))
+  (lib (name "ECG_Footprints")(type "KiCad")(uri "${KIPRJMOD}/../Library/footprints.pretty")(options "")(descr ""))
 )
