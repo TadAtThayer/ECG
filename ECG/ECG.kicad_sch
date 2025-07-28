@@ -5110,6 +5110,18 @@
 		(uuid "1eb4aa09-faf6-46ff-8460-75244cae8a37")
 	)
 	(junction
+		(at 113.665 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b27308-70bb-4988-b11e-fda2287ccf11")
+	)
+	(junction
+		(at 147.955 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329bb907-7803-4811-917d-5d5c94ff5d09")
+	)
+	(junction
 		(at 41.91 167.005)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5164,6 +5176,12 @@
 		(uuid "719f3ff2-235a-4215-a8cb-fc0e61bdc4c0")
 	)
 	(junction
+		(at 123.825 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773fd57f-e6da-44e1-83d3-1e1647f69e05")
+	)
+	(junction
 		(at 36.83 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5204,6 +5222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf1fb44c-3900-4fb0-92b7-ee8057a7d77d")
+	)
+	(junction
+		(at 116.84 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe07449-093e-4c1b-983a-fbd52a1403ce")
 	)
 	(junction
 		(at 72.39 153.035)
@@ -5440,6 +5464,16 @@
 			(type default)
 		)
 		(uuid "2825d1ff-1dac-45a9-8711-de93667a749a")
+	)
+	(wire
+		(pts
+			(xy 147.955 104.14) (xy 147.955 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28715f90-c8a6-467b-bf17-581e79d8240b")
 	)
 	(wire
 		(pts
@@ -5713,6 +5747,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.665 102.235) (xy 113.665 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5ba63d-6e94-4d82-a305-3f0c420a3cd0")
+	)
+	(wire
+		(pts
 			(xy 128.27 145.415) (xy 140.97 145.415)
 		)
 		(stroke
@@ -5783,6 +5827,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.825 44.45) (xy 123.825 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a09f367-d6f7-4a1b-826b-58e0c91d7cbb")
+	)
+	(wire
+		(pts
 			(xy 48.895 72.39) (xy 52.07 72.39)
 		)
 		(stroke
@@ -5790,6 +5844,16 @@
 			(type default)
 		)
 		(uuid "6c00c0c2-e903-45e7-8cda-4f1cea01bb42")
+	)
+	(wire
+		(pts
+			(xy 116.84 38.1) (xy 123.825 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dfb212e-2c21-4cb9-8dc9-7bee98a23f8e")
 	)
 	(wire
 		(pts
@@ -5840,6 +5904,26 @@
 			(type default)
 		)
 		(uuid "741de0bc-c031-44ae-8d1f-b04df0165f7a")
+	)
+	(wire
+		(pts
+			(xy 147.955 103.505) (xy 147.955 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e413af-a4f0-4ebb-ae15-4f9c9a891cab")
+	)
+	(wire
+		(pts
+			(xy 116.84 43.18) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8cef36-61de-4968-bf7d-c595fac0a942")
 	)
 	(wire
 		(pts
@@ -6033,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 43.18) (xy 123.825 52.705)
+			(xy 123.825 43.18) (xy 123.825 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6313,6 +6397,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 44.45) (xy 123.825 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdefc5a0-b23a-4b21-9ba7-33811ecee925")
+	)
+	(wire
+		(pts
 			(xy 92.71 87.63) (xy 92.71 85.725)
 		)
 		(stroke
@@ -6360,6 +6454,16 @@
 			(type default)
 		)
 		(uuid "d2148bea-00d6-4c5d-b87c-074c4b3283e8")
+	)
+	(wire
+		(pts
+			(xy 142.875 104.14) (xy 147.955 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f5a5be-8b1d-4d5a-8a3d-df4b450463d3")
 	)
 	(wire
 		(pts
@@ -6623,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 38.1) (xy 123.825 38.1)
+			(xy 113.665 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7864,6 +7968,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.875 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11273f25-1f39-45e0-9cc0-deb84a507d85")
+		(property "Reference" "TP8"
+			(at 143.51 103.505 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 141.6051 109.855 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 137.795 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.795 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.875 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e546bb4-b412-4632-86b0-cbaedb00d9eb")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V0")
 		(at 142.875 64.77 0)
 		(unit 1)
@@ -8334,7 +8505,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.955 103.505 0)
+		(at 147.955 104.775 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8343,7 +8514,7 @@
 		(fields_autoplaced yes)
 		(uuid "1acf5663-8329-4f3d-9145-9646bd3f5720")
 		(property "Reference" "#PWR021"
-			(at 147.955 109.855 0)
+			(at 147.955 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.955 107.95 0)
+			(at 147.955 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.955 103.505 0)
+			(at 147.955 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.955 103.505 0)
+			(at 147.955 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.955 103.505 0)
+			(at 147.955 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,6 +10597,73 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.665 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e263fc-c547-4324-b9fa-efd904def655")
+		(property "Reference" "TP7"
+			(at 114.3 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 112.3951 114.935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 108.585 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 108.585 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.665 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "674460d2-cb98-4641-85f7-3d57ab72a4c7")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13870,6 +14108,73 @@
 			(project ""
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 116.84 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa539ead-4b12-4048-b20f-41044890f39c")
+		(property "Reference" "R17"
+			(at 112.268 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 114.046 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 116.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20a2dfd-c8cc-44a3-9f1d-2ad863eea90e")
+		)
+		(pin "2"
+			(uuid "3bd683eb-d674-4dc3-ab7b-8c1c2dc96f1d")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "R17")
 					(unit 1)
 				)
 			)

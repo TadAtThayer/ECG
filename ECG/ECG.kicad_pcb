@@ -540,7 +540,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "11896309-9573-4a22-a9f8-0551a932ea8a")
-		(at 129.25 62.775 90)
+		(at 129.5 62.775 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -1684,7 +1684,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at -3.175 0 0)
+			(at 2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "771b0d61-583c-4af9-996f-037b52be48e8")
 			(effects
@@ -3336,6 +3336,205 @@
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
+		(uuid "3a7b1d78-d1cc-494d-95ca-f0cfce8eee91")
+		(at 132.25 62.75 90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R17"
+			(at 3.25 0 90)
+			(layer "F.SilkS")
+			(uuid "4eeee1fb-553f-41c3-9b46-e900847102f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 0 1.43 90)
+			(layer "F.Fab")
+			(uuid "3b7baa6f-5077-4afb-bf99-6573952bc858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b93c071-0740-4ea8-b1ce-9ced6f70c232")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f87ec5e-33a5-4fa4-94a8-8fe054cd1b19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/fa539ead-4b12-4048-b20f-41044890f39c")
+		(sheetname "/")
+		(sheetfile "ECG.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac19b689-f5ab-4138-92ab-8de0067f89a2")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58f4ba04-4800-48da-9981-cfdd5323726e")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "52521a37-616b-4975-93f5-af49ecbeb4d4")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c3cb48b-b562-4ca1-9079-ffffc1aea4e5")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "83702de0-83fc-4d81-8be8-fb72437f341f")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1fe491bb-6d9d-4fa2-83e6-14a9c2375ed6")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17daf2b7-d458-473e-a25a-4e53cebecea9")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d71627a-c83d-492a-93a0-7b1cf372a5b5")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e828cb04-b5ba-424d-9099-9e468b065254")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f4ed5f77-f5be-45a7-999a-5d94580ce33e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "00e1fd5e-83d8-4864-ab49-b7fbe1d08a04")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 90)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 4 "/VREFIN")
+			(pintype "passive")
+			(uuid "c58153e3-b3b1-42ba-a0b4-c0f8b59bdd7c")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 90)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pintype "passive")
+			(uuid "d7cdc349-8700-4869-a66f-34742fe2a112")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
 		(uuid "3ab580be-f772-49b9-ba53-0458a051d333")
 		(at 115.675 74.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -4694,6 +4893,144 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(layer "F.Cu")
+		(uuid "6bc8a0a7-1f8d-4430-8767-6ed370d290e3")
+		(at 139 108.25)
+		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+		(tags "Through Hole Mount Test Points")
+		(property "Reference" "TP8"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "33187754-272c-4e40-ba01-557894f22125")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "5f4293b6-4955-4410-ac8d-d7459fca1153")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ab47fe9-c9af-4166-8cd1-ced935dcd37f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d97a1938-989c-4edb-8fe5-459659e2773d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/11273f25-1f39-45e0-9cc0-deb84a507d85")
+		(sheetname "/")
+		(sheetfile "ECG.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8350fbb2-f824-4feb-8d3c-10656ba0bb81")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.65 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "80aa1c5c-fda1-4f17-a1df-15dc8db7ea3c")
+		)
+		(fp_rect
+			(start -0.75 -0.25)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "96d2f2dc-c5bc-413e-9f25-4dedace52a41")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "20ad579a-45a5-423c-9437-d0626dd66648")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "79413034-008f-4d2f-9afb-8bd7325af2e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fa2e52cb-c7fc-4eba-8514-bcd4e6031e54")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8366,6 +8703,144 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(layer "F.Cu")
+		(uuid "cca1234a-f370-48b8-8b9a-5bc879f042d2")
+		(at 127 108.25)
+		(descr "Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
+		(tags "Through Hole Mount Test Points")
+		(property "Reference" "TP7"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "26cff256-8802-4757-84c0-b3019422d6a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "3ad16ee9-e0bc-44d1-a4b2-ff69c6290a48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee56052-a116-4c51-b380-2634511a44a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "987de773-bef4-4b56-9d86-3b67a0957b10")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/66e263fc-c547-4324-b9fa-efd904def655")
+		(sheetname "/")
+		(sheetfile "ECG.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 1.4 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d82d7845-2fa2-42a9-92e1-4be4d0857b55")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.65 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9c2798f5-bf34-470b-ba58-dc297f4fac2b")
+		)
+		(fp_rect
+			(start -0.75 -0.25)
+			(end 0.75 0.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "dcdc99a5-fcab-4e4c-a0f8-5f64615b262b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e7f827e1-d9bf-4020-907d-402c9810d07c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "3aa4072a-4876-488f-a636-043a4f53294d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "Net-(U1-REFOUT)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4cd8531f-8fa7-4739-ae39-7bc46d50ea62")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5000-5004_Miniature.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cd287319-05a9-41b2-9562-f18a69c4f85a")
@@ -8867,7 +9342,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at -2.54 1.905 0)
+			(at -0.75 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "73bb7b35-e389-435b-a244-984aa51c97d6")
 			(effects
@@ -13110,12 +13585,28 @@
 		(uuid "f330fdae-f118-49e1-bead-06f9f20347be")
 	)
 	(segment
+		(start 129.5 63.55)
+		(end 132.225 63.55)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "22821e4a-8bf7-4f59-9c50-dac60fc0b1ea")
+	)
+	(segment
 		(start 126.999999 71.095202)
 		(end 127 66)
 		(width 0.254)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "483a8232-fca4-4f16-9769-581a0c41e9b1")
+	)
+	(segment
+		(start 129.475 63.575)
+		(end 129.5 63.55)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "4eda0097-3b7a-4e1f-9d09-a40e97391347")
 	)
 	(segment
 		(start 127.025 63.55)
@@ -13126,6 +13617,14 @@
 		(uuid "6a75ed66-5275-4509-8110-5a6fe7ae970f")
 	)
 	(segment
+		(start 132.225 63.55)
+		(end 132.25 63.575)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "760fc91a-344f-4da3-8245-38e91175c6b9")
+	)
+	(segment
 		(start 127 65.825)
 		(end 127.175 66)
 		(width 0.254)
@@ -13134,12 +13633,12 @@
 		(uuid "77ad8a84-8439-4a61-bc60-854099b95884")
 	)
 	(segment
-		(start 129.25 63.55)
-		(end 127.025 63.55)
+		(start 127 63.575)
+		(end 129.475 63.575)
 		(width 0.254)
 		(layer "F.Cu")
 		(net 4)
-		(uuid "99e41fb7-877e-4256-b2a0-2f619abb05e3")
+		(uuid "c50e76aa-a414-4a85-8024-adddbb2daf6f")
 	)
 	(segment
 		(start 127 63.575)
@@ -13228,6 +13727,14 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "23c8b3b3-9a39-47ee-b5e2-f0993f039c47")
+	)
+	(segment
+		(start 127 101)
+		(end 127 108.25)
+		(width 0.254)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "2f5a71a5-df44-4377-85f5-62736d5cf54f")
 	)
 	(segment
 		(start 127 93.5)
@@ -14359,37 +14866,7 @@
 		(net 17)
 		(net_name "/INP")
 		(layer "F.Cu")
-		(uuid "5098bc81-d806-459c-b351-cb717647ca7d")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 112.198 76.77415) (xy 112.452 76.77415) (xy 112.597225 76.645507) (xy 112.5 76.499) (xy 112.354493 76.402775)
-			)
-		)
-	)
-	(zone
-		(net 17)
-		(net_name "/INP")
-		(layer "F.Cu")
-		(uuid "9cd549cc-e29c-48dc-9952-e8eff8aee32e")
+		(uuid "16149a46-905d-4b9b-8973-ce588351ed95")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30000)
@@ -14412,6 +14889,36 @@
 		(polygon
 			(pts
 				(xy 112.373 70.346637) (xy 112.627 70.346637) (xy 112.671637 70.034141) (xy 112.5 69.999) (xy 112.328363 70.034141)
+			)
+		)
+	)
+	(zone
+		(net 17)
+		(net_name "/INP")
+		(layer "F.Cu")
+		(uuid "1bd7b19b-a78b-4b24-909d-486fd9d46888")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 112.198 76.77415) (xy 112.452 76.77415) (xy 112.597225 76.645507) (xy 112.5 76.499) (xy 112.354493 76.402775)
 			)
 		)
 	)
@@ -14439,110 +14946,8 @@
 	(zone
 		(net 17)
 		(net_name "/INP")
-		(layer "F.Cu")
-		(uuid "e57e3980-bffb-4e72-833c-492c5a7d9d6e")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 112.198 76.77415) (xy 112.452 76.77415) (xy 112.597225 76.645507) (xy 112.5 76.499) (xy 112.354493 76.402775)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 112.198 76.77415) (xy 112.452 76.77415) (xy 112.597225 76.645507) (xy 112.5 76.499) (xy 112.354493 76.402775)
-			)
-		)
-	)
-	(zone
-		(net 17)
-		(net_name "/INP")
 		(layer "B.Cu")
-		(uuid "7712250d-4b23-48da-bdd1-e5a1f390e10b")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 112.627 76.153363) (xy 112.373 76.153363) (xy 112.328363 76.465859) (xy 112.5 76.501) (xy 112.671637 76.465859)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 112.627 76.153363) (xy 112.373 76.153363) (xy 112.328363 76.465859) (xy 112.5 76.501) (xy 112.671637 76.465859)
-			)
-		)
-	)
-	(zone
-		(net 17)
-		(net_name "/INP")
-		(layer "B.Cu")
-		(uuid "8b2b0814-5cc9-41e6-8764-27975f3f7907")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 112.627 76.153363) (xy 112.373 76.153363) (xy 112.328363 76.465859) (xy 112.5 76.501) (xy 112.671637 76.465859)
-			)
-		)
-	)
-	(zone
-		(net 17)
-		(net_name "/INP")
-		(layer "B.Cu")
-		(uuid "9d500927-6483-426d-8901-ae9353ab0038")
+		(uuid "24d712d3-faa1-46a0-9a09-02685194e7c6")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30001)
@@ -14565,6 +14970,36 @@
 		(polygon
 			(pts
 				(xy 112.373 70.346637) (xy 112.627 70.346637) (xy 112.671637 70.034141) (xy 112.5 69.999) (xy 112.328363 70.034141)
+			)
+		)
+	)
+	(zone
+		(net 17)
+		(net_name "/INP")
+		(layer "B.Cu")
+		(uuid "7cc9b667-a3cd-44be-81ee-a75b39017d21")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 112.627 76.153363) (xy 112.373 76.153363) (xy 112.328363 76.465859) (xy 112.5 76.501) (xy 112.671637 76.465859)
 			)
 		)
 	)
