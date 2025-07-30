@@ -414,6 +414,7 @@
 		(property "Reference" "TP5"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cb5082a7-4ddc-45a1-b2e2-994c4cd68890")
 			(effects
 				(font
@@ -3012,6 +3013,17 @@
 				(xyz -90 -0 90)
 			)
 		)
+		(model "/Users/d66317d/Code/Boards/ECG/Library/3d/691137710002.step"
+			(offset
+				(xyz 5 4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -3835,6 +3847,7 @@
 		(property "Reference" "TP3"
 			(at 0 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c366dfed-9d7d-464d-ad23-69981527ab03")
 			(effects
 				(font
@@ -15650,7 +15663,7 @@
 		(uuid "d8ab43bb-3155-4d99-9628-7cf32b263a91")
 	)
 	(gr_text "3-WIRE"
-		(at 139.090001 105.792999 90)
+		(at 135.255 100.965 0)
 		(layer "F.SilkS")
 		(uuid "259c55f2-17dd-43fe-b784-aab02b0c89ee")
 		(effects
@@ -15686,7 +15699,7 @@
 		)
 	)
 	(gr_text "RLD"
-		(at 162.590001 110.542999 90)
+		(at 156.845 107.315 0)
 		(layer "F.SilkS")
 		(uuid "32c34b5c-9892-44d5-bdad-a4523d876d97")
 		(effects
@@ -15697,7 +15710,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3-WIRE\nDC"
+	(gr_text "DC\n3-WIRE\n"
 		(at 121.6 74.8 0)
 		(layer "F.SilkS")
 		(uuid "3a27046b-b329-43c1-a55a-48b03c4db322")
@@ -15722,7 +15735,7 @@
 		)
 	)
 	(gr_text "LEFT"
-		(at 107.6 106.5 0)
+		(at 107.95 107.315 0)
 		(layer "F.SilkS")
 		(uuid "621450fe-2b5b-4301-83ff-5d9897ce80bd")
 		(effects
@@ -15770,7 +15783,7 @@
 		)
 	)
 	(gr_text "SW"
-		(at 128.840001 94.292999 90)
+		(at 127 93.345 0)
 		(layer "F.SilkS")
 		(uuid "83856a16-ba98-4fac-9512-318ffcfc0d90")
 		(effects
@@ -15794,7 +15807,7 @@
 		)
 	)
 	(gr_text "RIGHT"
-		(at 137.340001 110.542999 90)
+		(at 131.445 107.315 0)
 		(layer "F.SilkS")
 		(uuid "8cf83c71-1ce8-4443-a389-4d4e26371d19")
 		(effects
@@ -15811,9 +15824,8 @@
 		(uuid "981e2f2a-e491-49d8-8f02-675a3f02bede")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -15867,7 +15879,7 @@
 		)
 	)
 	(gr_text "2-WIRE"
-		(at 133.840001 105.792999 90)
+		(at 130.81 95.885 0)
 		(layer "F.SilkS")
 		(uuid "fc2f1396-3470-49c1-b656-4ea98e9a3965")
 		(effects
@@ -15879,7 +15891,7 @@
 		)
 	)
 	(gr_text "+9V"
-		(at 169.291 74.168 180)
+		(at 163.322 75.438 0)
 		(layer "F.Paste")
 		(uuid "461e9dc3-9deb-47e8-8c90-4e4c166960bd")
 		(effects
