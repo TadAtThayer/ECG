@@ -1,0 +1,89 @@
+(footprint "FingerPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.62 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "77147402-c633-4689-9c08-fcbc01186bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FingerPad"
+		(at -7.62 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f50b6be-08e8-49fd-a21d-c9462b67f722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aa4e32a-9fad-4b1c-b9df-cf82b8d95f4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06c2c77-118a-42e3-8c6d-2f47b0875a49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -11.43 -11.43)
+		(end 11.43 11.43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "26cb150c-b6ee-44a1-b81e-f8c99d562d11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.08 7.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07a89239-7c0b-4abd-855e-e3cf89f42e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 20.32 20.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "4cb9beba-eec3-4540-aba6-e540d07d5d75")
+	)
+	(embedded_fonts no)
+)
