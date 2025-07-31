@@ -7442,6 +7442,16 @@
 		)
 		(uuid "ffafb6ed-b19d-4e83-840e-c0c8a28b0146")
 	)
+	(label "BPLUS"
+		(at 201.93 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05098d9f-30f6-4854-8560-0fa5e6083e4b")
+	)
 	(label "AREF"
 		(at 128.27 142.875 0)
 		(effects
