@@ -598,7 +598,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -610,7 +610,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -640,7 +640,7 @@
           "group_by": false,
           "label": "DigikeyPN",
           "name": "DigikeyPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -713,6 +713,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BIN",
+          "name": "BIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey PN",
+          "name": "DigiKey PN",
+          "show": true
         }
       ],
       "filter_string": "",
