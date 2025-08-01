@@ -1,4 +1,4 @@
-25974301458912877
+25977809773890875
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59542,6 +59542,13 @@ DIP30-ArduinoNano
 30
 30
 ECG_Footprints
+ECG_V1.0
+
+
+0
+0
+0
+ECG_Footprints
 FingerPad
 
 
@@ -59555,6 +59562,13 @@ MODULE_ABX00027
 0
 30
 30
+ECG_Footprints
+RefPad
+
+
+0
+1
+1
 ECG_Footprints
 SW_SLW-118562-4A-N-D
 
