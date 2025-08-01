@@ -17652,6 +17652,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+9V"
+		(at 163.322 75.438 0)
+		(layer "F.SilkS")
+		(uuid "461e9dc3-9deb-47e8-8c90-4e4c166960bd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "LEFT"
 		(at 102.997 132.969 0)
 		(layer "F.SilkS")
@@ -17828,19 +17841,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+9V"
-		(at 163.322 75.438 0)
-		(layer "F.Paste")
-		(uuid "461e9dc3-9deb-47e8-8c90-4e4c166960bd")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
