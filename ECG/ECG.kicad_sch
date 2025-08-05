@@ -5022,6 +5022,18 @@
 		)
 		(uuid bfd1aa64-a51b-43a0-ba94-d2ad034bb201)
 	)
+	(rectangle
+		(start 159.385 15.24)
+		(end 212.725 64.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe86eeb3-f8cc-40eb-9692-113a1fc719b6)
+	)
 	(text "To Arduino\n"
 		(exclude_from_sim no)
 		(at 103.632 159.004 0)
@@ -5104,7 +5116,7 @@
 	)
 	(text "100mil spacing\nShunt fitted to \nGND\n"
 		(exclude_from_sim no)
-		(at 153.797 60.96 0)
+		(at 148.844 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,6 +5134,16 @@
 		)
 		(uuid "74a35530-10fc-42bf-9653-bc1c733fc1ac")
 	)
+	(text "Sockets for Arduino.\nOn BOM not placed on PCB"
+		(exclude_from_sim no)
+		(at 192.786 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "848a7a5b-a1f1-4c04-bf87-020d19d3df4c")
+	)
 	(text "Power Connection Flags\n"
 		(exclude_from_sim no)
 		(at 250.19 38.354 0)
@@ -5131,6 +5153,16 @@
 			)
 		)
 		(uuid "9878e579-2f82-4fd3-8dc2-4590a2759346")
+	)
+	(text "Shunt blocks\n"
+		(exclude_from_sim no)
+		(at 169.418 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad0beeba-4ca9-4b26-9f40-e153201a8105")
 	)
 	(text "Optional Second Filter"
 		(exclude_from_sim no)
@@ -5423,16 +5455,176 @@
 		(uuid "032057a7-fb9e-4cd4-a7f1-f97ee42b9cca")
 	)
 	(no_connect
+		(at 189.23 50.165)
+		(uuid "03cd7f13-b053-40d0-aacf-d721d938a90b")
+	)
+	(no_connect
+		(at 189.23 29.845)
+		(uuid "09313643-909c-4fda-a071-8a61f74edcc4")
+	)
+	(no_connect
 		(at 224.155 151.13)
 		(uuid "09a5d380-97d1-4605-887e-c08cb45a8503")
+	)
+	(no_connect
+		(at 204.47 27.305)
+		(uuid "17fde6f2-6b0a-4bc7-a6a2-4f5d2451ee70")
+	)
+	(no_connect
+		(at 164.465 30.48)
+		(uuid "28c22a93-7507-4eb1-b0f2-d7d4d5b0d82f")
+	)
+	(no_connect
+		(at 204.47 42.545)
+		(uuid "2d7f4a6b-9e7c-4d51-a823-e2b88e7eab9d")
+	)
+	(no_connect
+		(at 204.47 50.165)
+		(uuid "3b27e4e0-23df-4c15-a4ef-3459a3db3539")
+	)
+	(no_connect
+		(at 164.465 20.955)
+		(uuid "3b8379a1-7fda-4d91-b909-99b9c59af07c")
+	)
+	(no_connect
+		(at 164.465 51.435)
+		(uuid "4168f6b4-7164-41d9-a3f9-cc9dc8300534")
+	)
+	(no_connect
+		(at 189.23 24.765)
+		(uuid "45d44ff8-6cc0-45b3-998a-857a5eed185a")
+	)
+	(no_connect
+		(at 204.47 34.925)
+		(uuid "47aee899-56ba-481e-9a40-34171d5063fb")
+	)
+	(no_connect
+		(at 189.23 40.005)
+		(uuid "48eb50ec-0f6b-451b-9c97-71e360f411ac")
+	)
+	(no_connect
+		(at 189.23 37.465)
+		(uuid "4edbe9ef-3a14-4b3f-8c07-8374ea3a98a5")
+	)
+	(no_connect
+		(at 204.47 55.245)
+		(uuid "529583e0-c9f1-437e-b026-d1aa5265416a")
 	)
 	(no_connect
 		(at 229.235 151.13)
 		(uuid "53f2580f-3820-4bb3-9e6c-ea726f804f87")
 	)
 	(no_connect
+		(at 189.23 55.245)
+		(uuid "550cf1e1-4c5b-4b6b-a0a2-1b96e5606f63")
+	)
+	(no_connect
+		(at 204.47 52.705)
+		(uuid "5630dda0-08f2-4366-a984-5b4f31df41cb")
+	)
+	(no_connect
+		(at 204.47 40.005)
+		(uuid "56450262-cbb6-423e-95d9-158de7119f33")
+	)
+	(no_connect
+		(at 204.47 32.385)
+		(uuid "579e7a65-4efb-4f89-8f7a-50192f185c16")
+	)
+	(no_connect
+		(at 189.23 27.305)
+		(uuid "5f0e4faf-c302-4c81-98b6-fba274f766e7")
+	)
+	(no_connect
+		(at 164.465 44.45)
+		(uuid "61a0b307-220f-4f34-8da9-a6f948fc628b")
+	)
+	(no_connect
+		(at 204.47 19.685)
+		(uuid "78adf96b-1d8d-45e2-a047-5d6896f77905")
+	)
+	(no_connect
+		(at 164.465 41.91)
+		(uuid "808ec8a2-dbd2-4840-8ccc-3e928276f1c1")
+	)
+	(no_connect
+		(at 204.47 37.465)
+		(uuid "82406985-e404-49b1-8860-9f417d5b7e1d")
+	)
+	(no_connect
+		(at 164.465 27.94)
+		(uuid "87b0f651-edca-49e7-972f-bb7a64fc9bc9")
+	)
+	(no_connect
+		(at 189.23 19.685)
+		(uuid "8d5f2121-b7e5-4a9c-959d-fcb3bc838d58")
+	)
+	(no_connect
+		(at 189.23 22.225)
+		(uuid "97e84606-686f-408f-8696-73e4c07baf37")
+	)
+	(no_connect
+		(at 204.47 22.225)
+		(uuid "9cb61ca6-13b9-4c7f-a43b-6bdd660fda11")
+	)
+	(no_connect
+		(at 189.23 32.385)
+		(uuid "a2abc73f-90b4-4f1a-9cab-a4cdace79286")
+	)
+	(no_connect
 		(at 216.535 146.05)
 		(uuid "a6fc3e1c-4bbb-4dc6-98b4-0145152ee8d6")
+	)
+	(no_connect
+		(at 164.465 23.495)
+		(uuid "a9949acb-a025-4bc0-a89e-84f22a91e83e")
+	)
+	(no_connect
+		(at 189.23 52.705)
+		(uuid "adff7e2a-9ecc-4dfc-9539-3af58cad7764")
+	)
+	(no_connect
+		(at 204.47 45.085)
+		(uuid "b0558ca2-b6df-401c-9c47-d0689e31b079")
+	)
+	(no_connect
+		(at 204.47 29.845)
+		(uuid "b126d893-3f7c-4da2-a03b-e5fa62bf9329")
+	)
+	(no_connect
+		(at 164.465 37.465)
+		(uuid "b6d104f6-2da3-44b3-9c36-a7105530e106")
+	)
+	(no_connect
+		(at 189.23 34.925)
+		(uuid "b85dca46-876f-46f2-8ebd-dbb84b3f8694")
+	)
+	(no_connect
+		(at 204.47 24.765)
+		(uuid "c4b57361-5ee1-4e50-86f8-9f47f4595c5d")
+	)
+	(no_connect
+		(at 189.23 47.625)
+		(uuid "c7be5ead-db61-4085-949c-7087b94df544")
+	)
+	(no_connect
+		(at 204.47 47.625)
+		(uuid "cebd74c0-2ce1-4f54-a530-7888aaf40641")
+	)
+	(no_connect
+		(at 164.465 34.925)
+		(uuid "d62f7e5a-495b-4ddf-8a3f-9941bb3a0073")
+	)
+	(no_connect
+		(at 189.23 45.085)
+		(uuid "da6cc540-4dec-4af7-baa5-e02439600964")
+	)
+	(no_connect
+		(at 164.465 48.895)
+		(uuid "efcee26d-a589-4ff5-b1a3-46cb19e18ed9")
+	)
+	(no_connect
+		(at 189.23 42.545)
+		(uuid "f820ef35-dc06-4853-bb0f-52c4de1545e9")
 	)
 	(wire
 		(pts
@@ -8309,6 +8501,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT470KCT-ND"
+			(at 85.725 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d43a4279-e724-49eb-bfe3-ec0e54a80e81")
 		)
@@ -8380,7 +8581,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "732-10955-ND"
+		(property "DigikeyPN" "36-232-ND"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -8399,6 +8600,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AlternatePart" "732-10955-ND (TerminalBlock)"
 			(at 252.73 143.51 0)
 			(effects
 				(font
@@ -8710,6 +8920,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 46.355 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83909b25-b77c-4cad-897e-8c5000490563")
 		)
@@ -8920,6 +9139,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 61.595 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT220KCT-ND"
 			(at 61.595 67.31 90)
 			(effects
 				(font
@@ -9253,6 +9481,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
 			(at 62.23 147.32 0)
 			(effects
 				(font
@@ -9720,6 +9957,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
+			(at 121.285 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13dd290b-742b-4dbc-a6e1-fbf409333e5c")
 		)
@@ -9965,6 +10211,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 101.6 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2057-PH1-02-UA-ND"
 			(at 101.6 151.765 0)
 			(effects
 				(font
@@ -10234,6 +10489,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.045 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
 			(at 106.045 50.8 90)
 			(effects
 				(font
@@ -10563,6 +10827,204 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 20.955 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3719b38a-02fb-47ae-9f55-ddc8f94d9fdc")
+		(property "Reference" "J13"
+			(at 172.085 22.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 23.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe0ce5c0-a871-4835-ae5f-2cddd17a8b96")
+		)
+		(pin "2"
+			(uuid "47e99834-a814-4284-a160-c15b56de3bce")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38ee4cf5-cf4b-486b-a962-eafe3ff35f01")
+		(property "Reference" "J15"
+			(at 172.085 50.1649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71bd0d17-733c-4a71-bfc1-d4f90bc3c935")
+		)
+		(pin "2"
+			(uuid "4abe8314-d43a-4dc4-8a77-f8cf71bfae6a")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -13054,6 +13516,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "2223-SLW-118562-4A-N-D-ND"
+			(at 226.695 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "85ba88c6-705d-41a7-95ea-60748a42826f")
 		)
@@ -13610,6 +14081,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 123.825 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83474fce-71a0-4cfb-915d-99061295af7a")
 		)
@@ -14064,6 +14544,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "2057-PH1-02-UA-ND"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e5f4486-c9df-4ee5-a27f-aaadc82fdbdb")
 		)
@@ -14503,6 +14992,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT6K80CT-ND"
+			(at 96.52 168.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "992a7208-7803-4104-8c3d-236f3256c63c")
 		)
@@ -14580,6 +15078,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.205 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT100KCT-ND"
 			(at 116.205 95.25 90)
 			(effects
 				(font
@@ -15668,6 +16175,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 46.355 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f84dbf3f-4a8d-4dc3-9f7f-3b38f39d3329")
 		)
@@ -15748,6 +16264,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 41.91 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
 			(at 41.91 162.56 0)
 			(effects
 				(font
@@ -15932,6 +16457,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ad955f-d798-47aa-bd07-075c05ba6a0d")
+		(property "Reference" "J14"
+			(at 172.085 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21cc0c31-1a06-486f-89c8-8f766560cbc1")
+		)
+		(pin "2"
+			(uuid "fe4f5882-d0af-414e-897c-d4bbc06c0aa7")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 55.245 56.515 0)
 		(unit 1)
@@ -16099,6 +16723,143 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x15")
+		(at 184.15 37.465 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f5f69a-4d5a-45e2-9a81-fc667a209119")
+		(property "Reference" "J10"
+			(at 180.975 37.4651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Socket 1x15"
+			(at 180.975 36.1951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "PPPC151LFBN-RC"
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ba20e38-f007-4ed5-9d73-b6cd31db1f05")
+		)
+		(pin "2"
+			(uuid "a812d43d-a6b8-4987-962d-97f12c286c0d")
+		)
+		(pin "3"
+			(uuid "34b31c7b-7d3c-42b7-bea2-b5887645af63")
+		)
+		(pin "4"
+			(uuid "a4bb43b2-0eca-4016-8e5e-8ae950f90bed")
+		)
+		(pin "5"
+			(uuid "48fefd44-428b-4283-9034-ceb3b6406c64")
+		)
+		(pin "6"
+			(uuid "2137ad53-82dc-49ad-9dc9-4c6b4a218d6a")
+		)
+		(pin "7"
+			(uuid "580794ee-63e1-4694-9f75-fd3f510b9944")
+		)
+		(pin "8"
+			(uuid "a37a6fa0-9684-40ca-a697-2fda445dcee4")
+		)
+		(pin "9"
+			(uuid "98124425-6c6a-49f3-88ef-8dfb0b3dd1a4")
+		)
+		(pin "10"
+			(uuid "deaf2d04-ab6d-450f-a03f-a439d9087b31")
+		)
+		(pin "11"
+			(uuid "68612764-28f1-4d35-a3ba-5915426c6826")
+		)
+		(pin "12"
+			(uuid "d651c96e-d78e-4287-be87-9ea22277a24c")
+		)
+		(pin "13"
+			(uuid "b5cc51b4-1b14-42f8-9b34-105c8e9f451c")
+		)
+		(pin "14"
+			(uuid "cbbcf8b9-e8e0-4558-9a3a-66b1b2496d8d")
+		)
+		(pin "15"
+			(uuid "4d427542-15a9-485f-b0d4-1357ed28a5f7")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -16342,6 +17103,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "2057-PH1-02-UA-ND"
+			(at 77.47 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d0bb29-da3e-4883-aec8-0a99fda1b522")
 		)
@@ -16352,6 +17122,105 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 34.925 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe940a4-0c40-4429-914d-9a2bae7d47e1")
+		(property "Reference" "J11"
+			(at 172.085 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 37.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3379aff0-290b-4e5c-b724-21eecaaf38dd")
+		)
+		(pin "2"
+			(uuid "d6c23ce4-190d-4f31-8079-9ccfa55feffb")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -16646,6 +17515,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT330KCT-ND"
+			(at 48.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35610e5a-ccb2-40f3-ab79-ccc25f7e4231")
 		)
@@ -16917,6 +17795,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x15")
+		(at 199.39 37.465 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4582f98-e615-4c38-b38e-13d5e7c4a9ce")
+		(property "Reference" "J9"
+			(at 196.215 37.4651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Socket 1x15"
+			(at 196.215 36.1951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "PPPC151LFBN-RC"
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ea96fd-d9d2-475a-9d84-70acb693ac16")
+		)
+		(pin "2"
+			(uuid "8a1500ee-b5a1-461c-badc-19aabe7dedc3")
+		)
+		(pin "3"
+			(uuid "ca2713de-ff66-415b-91ea-1eaf38fe3458")
+		)
+		(pin "4"
+			(uuid "5e0e7fb4-11bf-4a2d-aa7c-389ae3024845")
+		)
+		(pin "5"
+			(uuid "dc9221e9-5712-4d5c-b867-aacd7045b13d")
+		)
+		(pin "6"
+			(uuid "796450fb-2a10-477b-a7b4-4a763c6cfd0c")
+		)
+		(pin "7"
+			(uuid "6788e9a2-2c99-47cd-a55d-c9ff4a3b662f")
+		)
+		(pin "8"
+			(uuid "5ad55857-361c-4867-849a-d5fbdd665f7b")
+		)
+		(pin "9"
+			(uuid "9e952810-6a99-4403-b8a2-a5264238b95b")
+		)
+		(pin "10"
+			(uuid "8284e843-42a9-4e70-997a-f1d0130a120b")
+		)
+		(pin "11"
+			(uuid "d23042f3-7920-41ec-88b9-58baf5e844e0")
+		)
+		(pin "12"
+			(uuid "09af4ea1-ba62-4d09-a22a-1f8140383bbc")
+		)
+		(pin "13"
+			(uuid "d3ffc90b-6cc6-4f77-ab8e-b91db28d9c76")
+		)
+		(pin "14"
+			(uuid "b96fd472-85e7-4619-aac1-58ea60646d8a")
+		)
+		(pin "15"
+			(uuid "75779908-cc13-40b9-a896-3c6df945101b")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 180.34 0)
 		(unit 1)
@@ -17052,6 +18067,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 123.825 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba17a78e-2636-4f14-a840-430cc54dc353")
 		)
@@ -17129,6 +18153,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 61.595 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT220KCT-ND"
 			(at 61.595 72.39 90)
 			(effects
 				(font
@@ -17216,6 +18249,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 98.425 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "505-AD8232ACPZ-R7CT-ND"
 			(at 98.425 93.98 0)
 			(effects
 				(font
@@ -17366,6 +18408,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c20a2dfd-c8cc-44a3-9f1d-2ad863eea90e")
 		)
@@ -17443,6 +18494,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603JJ1K00CT-ND"
 			(at 129.54 105.41 90)
 			(effects
 				(font
@@ -17593,6 +18653,105 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda77613-a6aa-4cf0-a9ce-610a11983942")
+		(property "Reference" "J12"
+			(at 172.085 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "177e20a2-7ea0-4e10-8664-5736419f7d47")
+		)
+		(pin "2"
+			(uuid "0e8b0d7f-2409-45af-bf45-b708600f58b7")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J12")
 					(unit 1)
 				)
 			)
