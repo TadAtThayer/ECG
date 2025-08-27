@@ -20029,7 +20029,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AD8232 ECG Demo Board\nRev 1.0 \nOdame/Truex/Barry\nCopyright 2025\n"
+	(gr_text "AD8232 ECG Demo Board\nRev 1.0a \nOdame/Truex/Barry\nCopyright 2025\n"
 		(at 106.045 46.228 0)
 		(layer "F.SilkS")
 		(uuid "29d76613-d941-405e-b201-99b014ee47a7")
