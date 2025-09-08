@@ -3062,7 +3062,7 @@
 		(uuid "35dd63ce-5995-4862-b2f2-a9bc494b3191")
 		(at 159.381 77.637 -90)
 		(property "Reference" "J5"
-			(at 0 -5.135 90)
+			(at -6.517 -0.004 180)
 			(layer "F.SilkS")
 			(uuid "0ed5afc1-6c88-4132-939a-680fb3ac0e51")
 			(effects
@@ -13416,7 +13416,7 @@
 			)
 		)
 		(property "Value" "BS-3"
-			(at -4.888 18.111 0)
+			(at 8.74 18.111 0)
 			(layer "F.Fab")
 			(uuid "0ed41783-90c9-4b27-aa37-7a7a92c2c29d")
 			(effects
@@ -20498,9 +20498,8 @@
 		(uuid "461e9dc3-9deb-47e8-8c90-4e4c166960bd")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -20566,7 +20565,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 155.194 78.74 0)
+		(at 163.195 80.645 0)
 		(layer "F.SilkS")
 		(uuid "873aaba7-6e7d-41d5-b763-e664d4ff3af5")
 		(effects
