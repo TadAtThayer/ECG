@@ -2095,6 +2095,33 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigikeyPN" "505-AD8232ACPZ-R7CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -2500,25 +2527,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 39.37 270)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "HTAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -18504,7 +18512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECG_Footprints:CP_20_10_ADI"
+		(property "Footprint" "ECG_Footprints:CP_20_10_ADI_NOTH"
 			(at 61.341 131.191 0)
 			(effects
 				(font
@@ -18619,9 +18627,6 @@
 		)
 		(pin "11"
 			(uuid "c3dde301-6358-436d-92ae-e55683b8f32a")
-		)
-		(pin "HTAB"
-			(uuid "bea8488d-40ea-48df-88af-eb26d029baa2")
 		)
 		(instances
 			(project ""

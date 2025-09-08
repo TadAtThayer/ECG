@@ -1,4 +1,4 @@
-25977809776260353
+25979567138183304
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59534,6 +59534,13 @@ AD8232ACPZ-R7
 0
 21
 21
+ECG_Footprints
+CP_20_10_ADI_NOTH
+
+AD8232ACPZ-R7 
+0
+20
+20
 ECG_Footprints
 DIP30-ArduinoNano
 
