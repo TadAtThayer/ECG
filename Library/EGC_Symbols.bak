@@ -2092,16 +2092,16 @@
 		)
 		(symbol "SLW-118562-4A-N-D_1_1"
 			(pin passive line
-				(at -2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "SH"
+				(name "Shield"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "SH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2110,16 +2110,17 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -7.62 90)
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "SH"
+				(hide yes)
+				(name "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
