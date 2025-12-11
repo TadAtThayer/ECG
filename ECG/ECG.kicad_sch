@@ -5244,6 +5244,27 @@
 		)
 		(uuid "fc3a7a23-36c4-4327-94c9-37388c2549ea")
 	)
+	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar\n2) AD3 control of Lead On (around Q5)\n3) Jumper in place of R14\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky."
+		(exclude_from_sim no)
+		(at 102.235 13.97 0)
+		(size 51.435 13.335)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 0 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5ef0406f-3636-455f-85ac-2609ae00453d")
+	)
 	(junction
 		(at 129.54 95.25)
 		(diameter 0)
@@ -19627,7 +19648,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb008ea2-965d-48f9-b1fc-7bf41914868f")
 		(property "Reference" "#PWR011"
 			(at 123.825 36.83 0)
@@ -19639,7 +19659,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 123.825 27.94 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
