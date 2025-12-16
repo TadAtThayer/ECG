@@ -1,4 +1,4 @@
-25981324502349301
+25983165411800845
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59576,6 +59576,13 @@ MODULE_ABX00027
 0
 30
 30
+ECG_Footprints
+MPD_BC2032-E2
+
+
+0
+2
+2
 ECG_Footprints
 RefPad
 

@@ -64,6 +64,10 @@
           ""
         ],
         [
+          "missing_courtyard|133096000|121031000|2c9d8857-92f4-4b11-88d7-8b6ffcbdb28d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "npth_inside_courtyard|98425000|42545000|f839c08d-1a31-4b84-90ca-0ec30c06298b|bdcf74ab-cf0f-4be0-ae9c-ba90826eff8b",
           ""
         ]
@@ -907,12 +911,6 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey PN",
-          "name": "DigiKey PN",
           "show": false
         },
         {
