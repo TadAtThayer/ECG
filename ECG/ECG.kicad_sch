@@ -5136,9 +5136,9 @@
 		)
 		(uuid "449cbb2c-79fa-494c-bd92-509eeff81940")
 	)
-	(text "J8 is for access with an AD3.  Most other nodes here \nare available at the Arduino."
+	(text "J8 is for observation via AD3.\nJ16 is to simulate LEAD_ON events via AD3."
 		(exclude_from_sim no)
-		(at 88.9 190.246 0)
+		(at 75.692 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5246,10 +5246,10 @@
 		)
 		(uuid "fc3a7a23-36c4-4327-94c9-37388c2549ea")
 	)
-	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar (DONE)\n2) AD3 control of Lead On (around Q5)\n3) Jumper in place of R14\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky."
+	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar (DONE)\n2) AD3 control of Lead On (Done)\n3) Jumper in place of R14\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky.\n5) Consolidate AD3 points."
 		(exclude_from_sim no)
 		(at 102.235 13.97 0)
-		(size 51.435 13.335)
+		(size 56.515 15.748)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0.0508)
@@ -5334,12 +5334,6 @@
 		(uuid "3413e30f-f4be-4d66-93a3-ab11afd9b73c")
 	)
 	(junction
-		(at 72.39 159.385)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e22bdb1-4915-456d-85f1-c97f502b2da6")
-	)
-	(junction
 		(at 41.91 167.005)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5398,12 +5392,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ddc3c86-0521-4a7a-902d-1a5dd31ff0e4")
-	)
-	(junction
-		(at 72.39 156.845)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81d4686b-63b8-43bf-bd21-7919ed7d15c7")
 	)
 	(junction
 		(at 62.23 153.035)
@@ -5787,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 156.845) (xy 72.39 159.385)
+			(xy 72.39 153.035) (xy 72.39 161.925)
 		)
 		(stroke
 			(width 0)
@@ -6257,16 +6245,6 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 140.335) (xy 84.455 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c79b552-77c6-4d7c-805b-58b0eeddb6fd")
-	)
-	(wire
-		(pts
 			(xy 96.52 144.78) (xy 84.455 144.78)
 		)
 		(stroke
@@ -6557,16 +6535,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 159.385) (xy 72.39 161.925)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ec340a-c2b0-4f41-baee-9144e29b7316")
-	)
-	(wire
-		(pts
 			(xy 116.84 43.18) (xy 116.84 44.45)
 		)
 		(stroke
@@ -6764,16 +6732,6 @@
 			(type default)
 		)
 		(uuid "93bdddf0-ca89-4af1-9b7c-4bf3464e799c")
-	)
-	(wire
-		(pts
-			(xy 72.39 153.035) (xy 72.39 156.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cd0db9-9649-48d9-93cb-fece90690b06")
 	)
 	(wire
 		(pts
@@ -7287,6 +7245,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 147.955) (xy 72.39 153.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b9253b-6b62-4b7e-a6f6-5830d9849bfb")
+	)
+	(wire
+		(pts
 			(xy 62.23 149.86) (xy 62.23 153.035)
 		)
 		(stroke
@@ -7404,6 +7372,16 @@
 			(type default)
 		)
 		(uuid "ec06cd56-2692-4b22-8007-20143bed7788")
+	)
+	(wire
+		(pts
+			(xy 84.455 142.875) (xy 84.455 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec11d148-f421-4917-8225-e6ee50deda1e")
 	)
 	(wire
 		(pts
@@ -7537,7 +7515,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 167.005) (xy 52.07 167.005)
+			(xy 41.91 167.005) (xy 49.53 167.005)
 		)
 		(stroke
 			(width 0)
@@ -7746,7 +7724,7 @@
 		(uuid "1657f03e-5c10-4f16-84f5-42cb3f1a6179")
 	)
 	(label "PWR_OFF_HV"
-		(at 64.135 153.035 0)
+		(at 62.23 160.655 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12901,10 +12879,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5503bb0e-28fa-4cfc-bc61-830405da1e78")
 		(property "Reference" "Q5"
-			(at 45.72 175.2599 0)
+			(at 44.196 177.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,6 +15042,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 147.955 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85619da0-1b85-498f-a20f-6d9dc19c3806")
+		(property "Reference" "#PWR042"
+			(at 74.93 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.851 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "564f31b5-ec78-44ac-9c82-3400dfc213ce")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 31.115 118.11 0)
 		(unit 1)
@@ -16567,7 +16610,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 84.455 140.335 0)
+		(at 84.455 142.875 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16577,7 +16620,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4e9ebb8-3cf9-4631-994f-a904e4e0ff38")
 		(property "Reference" "#PWR02"
-			(at 84.455 144.145 0)
+			(at 84.455 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16586,7 +16629,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 84.455 135.89 0)
+			(at 84.455 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16594,7 +16637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.455 140.335 0)
+			(at 84.455 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,7 +16646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 84.455 140.335 0)
+			(at 84.455 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16612,7 +16655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 84.455 140.335 0)
+			(at 84.455 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17964,16 +18007,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 77.47 156.845 0)
+		(at 72.39 142.875 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da6bc421-b02f-4501-b07b-9007db595cb6")
 		(property "Reference" "J8"
-			(at 80.01 158.1149 0)
+			(at 77.343 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17982,7 +18024,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 80.01 159.3849 0)
+			(at 74.9299 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17992,7 +18034,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18001,7 +18043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,7 +18052,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18019,7 +18061,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,7 +18070,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18079,7 @@
 			)
 		)
 		(property "DigikeyPN" "2057-PH1-02-UA-ND"
-			(at 77.47 156.845 0)
+			(at 72.39 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,6 +18163,103 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 52.07 172.085 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df6d7cf8-bd43-4dfa-b9cf-3c99e925efe4")
+		(property "Reference" "J16"
+			(at 54.102 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 49.5301 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2057-PH1-02-UA-ND"
+			(at 52.07 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "523c41f8-42c6-4a54-97a7-36ff73ab37c1")
+		)
+		(pin "2"
+			(uuid "9211bd0f-c3e3-4ff4-96b0-3d5eb581be99")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J16")
 					(unit 1)
 				)
 			)
