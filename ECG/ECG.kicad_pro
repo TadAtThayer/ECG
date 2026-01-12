@@ -64,6 +64,18 @@
           ""
         ],
         [
+          "footprint_type_mismatch|106680000|119380000|28e91847-681e-4899-817a-951ab90d4e28|00000000-0000-0000-0000-000000000000",
+          "This is not really a pad."
+        ],
+        [
+          "footprint_type_mismatch|132715000|119380000|77c74e6d-e441-40a4-934e-2df3fd665473|00000000-0000-0000-0000-000000000000",
+          "This is not really a pad."
+        ],
+        [
+          "footprint_type_mismatch|160020000|127635000|45eccee7-5d4a-4afc-8b56-9b0cc5bfbd7e|00000000-0000-0000-0000-000000000000",
+          "This is not really a pad."
+        ],
+        [
           "missing_courtyard|133096000|121031000|2c9d8857-92f4-4b11-88d7-8b6ffcbdb28d|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -91,7 +103,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
@@ -113,12 +125,12 @@
         "padstack": "error",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "error",
         "silk_over_copper": "error",
-        "silk_overlap": "ignore",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",

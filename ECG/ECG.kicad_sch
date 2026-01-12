@@ -5705,7 +5705,7 @@
 		)
 		(uuid "449cbb2c-79fa-494c-bd92-509eeff81940")
 	)
-	(text "J16 - Normal operation has a jumper fitted across pins 1-2.  Current value can \nbe observed between 3-5.  To simulate LEAD-ON/OFF events, the students must move \nthe shunt to pins 3-4 and connect the AD3 across 5-6.  9V version can be observed \nat 7-8.\n"
+	(text "J8 - Normal operation has a jumper fitted across pins 1-2.  Logic level can \nbe observed between 3-5.  To simulate LEAD-ON/OFF events, the students must move \nthe shunt to pins 3-4 and connect the AD3 across 5-6.  Inverted 9V version can \nbe observed at 7-8.  Amplifier output can be see between pins 9 and 10.\n"
 		(exclude_from_sim no)
 		(at 22.606 189.992 0)
 		(effects
@@ -5826,7 +5826,7 @@
 		)
 		(uuid "fc3a7a23-36c4-4327-94c9-37388c2549ea")
 	)
-	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar (DONE)\n2) AD3 control of Lead On (Done)\n3) Jumper in place of R14 (Done)\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky. (Done)\n5) Consolidate AD3 points."
+	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar (DONE)\n2) AD3 control of Lead On (Done)\n3) Jumper in place of R14 (Done)\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky. (Done)\n5) Consolidate AD3 points. (Done)"
 		(exclude_from_sim no)
 		(at 102.235 13.97 0)
 		(size 56.515 15.748)
@@ -9726,10 +9726,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b361df7-6838-4072-be3c-c49d635b22ef")
 		(property "Reference" "J8"
-			(at 54.61 160.02 0)
+			(at 54.356 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +11207,7 @@
 		(dnp no)
 		(uuid "22e084d4-8c23-4d70-9edc-bdd7eebd33ae")
 		(property "Reference" "C6"
-			(at 110.871 98.044 90)
+			(at 158.75 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
