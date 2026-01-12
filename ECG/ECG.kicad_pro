@@ -735,8 +735,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/V1.0b/",
-      "pos_files": "",
+      "plot": "Gerber/V1.0c/",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -945,7 +945,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1096,6 +1096,18 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_PN",
+          "name": "Manufacturer_PN",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1103,7 +1115,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

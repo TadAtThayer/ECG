@@ -9274,6 +9274,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f583d734-e348-4a42-821d-4be714a7fbbd")
 		)
@@ -9703,6 +9721,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 78.105 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 78.105 89.535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d43a4279-e724-49eb-bfe3-ec0e54a80e81")
 		)
@@ -9763,6 +9799,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 53.34 168.91 0)
 			(effects
 				(font
@@ -9902,6 +9956,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9df3db3-a6ee-40be-9946-b7c81a3670a8")
 		)
@@ -9991,7 +10063,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "11273f25-1f39-45e0-9cc0-deb84a507d85")
 		(property "Reference" "TP8"
 			(at 143.51 103.505 90)
@@ -10049,6 +10121,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 142.875 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 142.875 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 142.875 104.14 90)
 			(effects
 				(font
@@ -10156,6 +10246,24 @@
 			)
 		)
 		(property "DigikeyPN" "BC2032-E2-ND"
+			(at 199.39 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 199.39 146.05 90)
 			(effects
 				(font
@@ -10316,6 +10424,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 46.355 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.355 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 46.355 72.39 90)
 			(effects
 				(font
@@ -10551,6 +10677,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 61.595 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 61.595 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "018a213d-5b07-4f90-b72c-be35c7f71a9d")
 		)
@@ -10628,6 +10772,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 85.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 85.09 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 85.09 90.17 90)
 			(effects
 				(font
@@ -10723,6 +10885,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -10893,6 +11073,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 73.66 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 73.66 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bde40c0e-e8a1-4d96-9a89-3992d79246d6")
 		)
@@ -11040,6 +11238,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 129.54 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 129.54 111.76 90)
 			(effects
 				(font
@@ -11267,6 +11483,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 111.125 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 111.125 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8097c1bb-0f53-4df3-8fbd-04ace216cd30")
 		)
@@ -11353,6 +11587,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
+			(at 121.285 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 121.285 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 121.285 95.25 90)
 			(effects
 				(font
@@ -11449,6 +11701,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -11623,6 +11893,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06256a9e-3196-4f49-8b35-c9e821fb9d35")
 		)
@@ -11712,6 +12000,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 107.95 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 107.95 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1c94446-9fae-47ee-871d-ef37978349e8")
 		)
@@ -11776,6 +12082,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 26.035 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.035 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 26.035 118.11 0)
 			(effects
 				(font
@@ -11873,6 +12197,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7282a453-684d-4aa1-a2fa-cdf788c658bf")
 		)
@@ -11959,6 +12301,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 106.045 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 106.045 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 106.045 50.8 90)
 			(effects
 				(font
@@ -12062,6 +12422,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa1eef4b-d9df-4cba-a3d2-c78fa7d602b7")
 		)
@@ -12084,7 +12462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f8449a7-8ffe-4215-8902-43758765a4cf")
 		(property "Reference" "TP5"
 			(at 37.338 51.562 0)
@@ -12142,6 +12520,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 39.37 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 39.37 56.515 0)
 			(effects
 				(font
@@ -12299,6 +12695,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 56.515 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 56.515 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 56.515 26.035 0)
 			(effects
 				(font
@@ -12471,6 +12885,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 169.545 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe0ce5c0-a871-4835-ae5f-2cddd17a8b96")
 		)
@@ -12570,6 +13002,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 169.545 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71bd0d17-733c-4a71-bfc1-d4f90bc3c935")
 		)
@@ -12660,6 +13110,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 151.13 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 151.13 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 151.13 155.575 0)
 			(effects
 				(font
@@ -12908,6 +13376,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 141.605 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 141.605 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6eba1b44-515d-4d9a-b8b5-c4e46d16d5ea")
 		)
@@ -12989,6 +13475,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 41.91 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 41.91 56.515 0)
 			(effects
 				(font
@@ -13175,6 +13679,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 107.95 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 107.95 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bb13df8-546c-4cc1-a95e-5ad308d4ea69")
 		)
@@ -13266,6 +13788,24 @@
 			)
 		)
 		(property "DigikeyPN" "T2N7002AKLMCT-ND"
+			(at 177.8 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 177.8 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 177.8 92.71 90)
 			(effects
 				(font
@@ -13367,6 +13907,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 144.145 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 144.145 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 144.145 155.575 0)
 			(effects
 				(font
@@ -13502,6 +14060,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 253.365 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 253.365 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
@@ -13585,6 +14161,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 63.5 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 63.5 155.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 63.5 155.575 90)
 			(effects
 				(font
@@ -13694,6 +14288,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "936fc5b2-7237-44a0-965d-cfb37fe8f466")
 		)
@@ -13789,6 +14401,24 @@
 			)
 		)
 		(property "DigikeyPN" "T2N7002AKLMCT-ND"
+			(at 34.925 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 34.925 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 34.925 172.085 0)
 			(effects
 				(font
@@ -13961,6 +14591,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a5761fb-7e96-455a-b0d3-a68511a13b54")
 		)
@@ -14121,6 +14769,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 103.505 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 103.505 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0462a41-3d9e-4281-84d9-8c413e1bce87")
 		)
@@ -14198,6 +14864,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 141.605 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 141.605 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 141.605 95.25 90)
 			(effects
 				(font
@@ -14360,7 +15044,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66e263fc-c547-4324-b9fa-efd904def655")
 		(property "Reference" "TP7"
 			(at 114.3 108.585 90)
@@ -14426,6 +15110,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 113.665 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 113.665 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "674460d2-cb98-4641-85f7-3d57ab72a4c7")
 		)
@@ -14445,7 +15147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a19a9e4-f0ac-4856-9e56-41916f945670")
 		(property "Reference" "TP2"
 			(at 149.86 76.835 90)
@@ -14503,6 +15205,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 151.13 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 151.13 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 151.13 77.47 90)
 			(effects
 				(font
@@ -14602,6 +15322,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 147.955 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 147.955 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14c3673d-9b9f-4f31-a913-8e13107239be")
 		)
@@ -14692,6 +15430,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 36.83 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 36.83 87.63 90)
 			(effects
 				(font
@@ -14905,6 +15661,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 226.695 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 226.695 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "85ba88c6-705d-41a7-95ea-60748a42826f")
 		)
@@ -15071,6 +15845,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 229.235 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 229.235 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "37fbfb8f-f6bf-46a1-bfd3-099f2f4fba8e")
 		)
@@ -15227,6 +16019,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 36.195 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 36.195 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
@@ -15369,6 +16179,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 48.895 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 48.895 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 48.895 56.515 0)
 			(effects
 				(font
@@ -15536,6 +16364,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.825 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 123.825 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83474fce-71a0-4cfb-915d-99061295af7a")
 		)
@@ -15617,6 +16463,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 58.42 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 58.42 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 58.42 56.515 0)
 			(effects
 				(font
@@ -15716,6 +16580,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 95.885 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 95.885 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16a51482-e89e-497a-8860-3becac83f6ef")
 		)
@@ -15788,6 +16670,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 41.275 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 41.275 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
@@ -15804,7 +16704,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "855afab8-713b-4d69-bba4-18ed65fc2914")
 		(property "Reference" "TP1"
 			(at 150.495 81.915 90)
@@ -15862,6 +16762,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 151.13 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 151.13 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 151.13 82.55 90)
 			(effects
 				(font
@@ -15931,6 +16849,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 31.115 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 31.115 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 31.115 118.11 0)
 			(effects
 				(font
@@ -16022,6 +16958,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 147.955 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 147.955 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 147.955 67.31 0)
 			(effects
 				(font
@@ -16123,6 +17077,24 @@
 			)
 		)
 		(property "DigikeyPN" "2057-PH1-02-UA-ND"
+			(at 33.655 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.655 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 33.655 24.765 0)
 			(effects
 				(font
@@ -16293,6 +17265,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3ee9356-6f2e-4267-a3a0-1b9faf3e9519")
 		)
@@ -16400,6 +17390,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 129.54 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 129.54 99.06 90)
 			(effects
 				(font
@@ -16573,6 +17581,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 93.98 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce329261-e1c1-4cc2-9c35-0ade32b06cdd")
 		)
@@ -16659,6 +17685,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT6K80CT-ND"
+			(at 107.95 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 107.95 165.1 90)
 			(effects
 				(font
@@ -16761,6 +17805,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 116.205 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 116.205 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43a6c53c-7236-4317-a61c-6d7710a5cce7")
 		)
@@ -16849,6 +17911,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -17207,6 +18287,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 77.47 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 77.47 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9da00257-ee9f-4faf-a295-dbf1dc78770f")
 		)
@@ -17293,6 +18391,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 121.285 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 121.285 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 121.285 102.235 90)
 			(effects
 				(font
@@ -17734,6 +18850,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.345 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 93.345 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7a19fae-640e-4512-9dea-dedd96ae4fb2")
 		)
@@ -17759,7 +18893,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b9fb3edf-3db9-4a27-a184-649c2c7aee81")
 		(property "Reference" "TP3"
 			(at 50.292 51.562 0)
@@ -17817,6 +18951,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 52.07 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 52.07 56.515 0)
 			(effects
 				(font
@@ -17899,6 +19051,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 111.125 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 111.125 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 111.125 102.235 90)
 			(effects
 				(font
@@ -17993,6 +19163,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+			(at 46.355 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.355 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 46.355 67.31 90)
 			(effects
 				(font
@@ -18098,6 +19286,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 37.465 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 37.465 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b12e40f4-3d28-44ea-86a8-9c91f481c0f4")
 		)
@@ -18184,6 +19390,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 129.54 40.64 0)
 			(effects
 				(font
@@ -18357,6 +19581,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 169.545 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21cc0c31-1a06-486f-89c8-8f766560cbc1")
 		)
@@ -18379,7 +19621,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cfdf0f84-1727-458a-ab58-3838cc9831b9")
 		(property "Reference" "TP4"
 			(at 53.848 51.562 0)
@@ -18437,6 +19679,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 55.245 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.245 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 55.245 56.515 0)
 			(effects
 				(font
@@ -18522,6 +19782,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 93.345 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 93.345 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 93.345 55.88 0)
 			(effects
 				(font
@@ -18620,6 +19898,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 184.15 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 184.15 37.465 0)
 			(effects
 				(font
@@ -18831,6 +20127,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5010c642-1cb8-41be-ae20-421754c0cf9d")
 		)
@@ -18988,6 +20302,24 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 169.545 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 169.545 34.925 0)
 			(effects
 				(font
@@ -19221,6 +20553,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 69.85 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 69.85 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9623a78-bacd-4cf2-bac9-2634bef0d6f4")
 		)
@@ -19301,6 +20651,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 85.725 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 85.725 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 85.725 55.88 0)
 			(effects
 				(font
@@ -19395,6 +20763,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT330KCT-ND"
+			(at 48.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 48.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 48.26 82.55 90)
 			(effects
 				(font
@@ -19569,6 +20955,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f151477e-a522-4a3c-a5b7-01d8a901d469")
 		)
@@ -19594,7 +20998,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f355c308-5a92-4d31-be75-f84d00fb47f4")
 		(property "Reference" "TP6"
@@ -19653,6 +21057,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 103.505 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 103.505 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 103.505 90.17 0)
 			(effects
 				(font
@@ -19748,6 +21170,24 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 199.39 37.465 0)
 			(effects
 				(font
@@ -19955,6 +21395,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.825 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 123.825 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba17a78e-2636-4f14-a840-430cc54dc353")
 		)
@@ -20041,6 +21499,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603FT220KCT-ND"
+			(at 61.595 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 61.595 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 61.595 72.39 90)
 			(effects
 				(font
@@ -20137,6 +21613,24 @@
 			)
 		)
 		(property "DigikeyPN" "505-AD8232ACPZ-R7CT-ND"
+			(at 98.425 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 98.425 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 98.425 93.98 0)
 			(effects
 				(font
@@ -20293,6 +21787,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 116.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c20a2dfd-c8cc-44a3-9f1d-2ad863eea90e")
 		)
@@ -20379,6 +21891,24 @@
 			)
 		)
 		(property "DigikeyPN" "RMCF0603JJ1K00CT-ND"
+			(at 129.54 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 129.54 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 129.54 105.41 90)
 			(effects
 				(font
@@ -20609,6 +22139,24 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 169.545 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
 			(at 169.545 41.91 0)
 			(effects
 				(font

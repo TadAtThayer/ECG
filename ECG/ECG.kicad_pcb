@@ -111,7 +111,7 @@
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
 			(hpglpendiameter 15.000000)
@@ -135,7 +135,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/V1.0b/")
+			(outputdirectory "Gerber/V1.0c/")
 		)
 	)
 	(net 0 "")
@@ -654,7 +654,7 @@
 		(path "/2f8449a7-8ffe-4215-8902-43758765a4cf")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -4552,7 +4552,7 @@
 		(path "/b9fb3edf-3db9-4a27-a184-649c2c7aee81")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -5830,7 +5830,7 @@
 		(path "/6a19a9e4-f0ac-4856-9e56-41916f945670")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -6175,7 +6175,7 @@
 		(path "/11273f25-1f39-45e0-9cc0-deb84a507d85")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -8966,7 +8966,7 @@
 		(path "/f355c308-5a92-4d31-be75-f84d00fb47f4")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -13221,7 +13221,7 @@
 		(path "/66e263fc-c547-4324-b9fa-efd904def655")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -14030,7 +14030,7 @@
 		(path "/855afab8-713b-4d69-bba4-18ed65fc2914")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -14389,7 +14389,7 @@
 		(path "/cfdf0f84-1727-458a-ab58-3838cc9831b9")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.4 0)
@@ -19979,7 +19979,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "AD8232 ECG Demo Board\nRev 1.0b \nOdame/Truex/Barry\nCopyright 2025\n"
+	(gr_text "AD8232 ECG Demo Board\nRev 1.0c \nOdame/Truex/Barry\nCopyright 2025\n"
 		(at 116.713 45.974 0)
 		(layer "F.SilkS")
 		(uuid "29d76613-d941-405e-b201-99b014ee47a7")
