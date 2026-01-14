@@ -963,7 +963,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1071,7 +1071,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1093,12 +1093,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -1107,6 +1101,12 @@
           "group_by": false,
           "label": "Manufacturer_PN",
           "name": "Manufacturer_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": false
         }
       ],

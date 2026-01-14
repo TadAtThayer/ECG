@@ -9780,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 53.34 168.91 0)
 			(effects
 				(font
@@ -9866,25 +9866,24 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 252.73 143.51 0)
+		(at 252.73 146.05 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cfec558-1cd5-46a9-9f57-ef8a522829f2")
 		(property "Reference" "J5"
-			(at 255.905 144.7799 0)
+			(at 256.032 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 255.27 146.0499 0)
+			(at 255.27 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" "ECG_Footprints:691137710002"
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +9902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/691137710002.pdf"
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +9911,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +9920,7 @@
 			)
 		)
 		(property "DigikeyPN" "36-232-ND"
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9929,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9938,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9947,7 @@
 			)
 		)
 		(property "AlternatePart" "732-10955-ND (TerminalBlock)"
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9956,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9965,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 252.73 143.51 0)
+			(at 252.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10062,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "11273f25-1f39-45e0-9cc0-deb84a507d85")
 		(property "Reference" "TP8"
 			(at 143.51 103.505 90)
@@ -12462,7 +12461,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2f8449a7-8ffe-4215-8902-43758765a4cf")
 		(property "Reference" "TP5"
 			(at 37.338 51.562 0)
@@ -12471,6 +12470,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12808,7 +12808,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3719b38a-02fb-47ae-9f55-ddc8f94d9fdc")
 		(property "Reference" "J13"
@@ -12925,7 +12925,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ee4cf5-cf4b-486b-a962-eafe3ff35f01")
 		(property "Reference" "J15"
@@ -15044,7 +15044,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "66e263fc-c547-4324-b9fa-efd904def655")
 		(property "Reference" "TP7"
 			(at 114.3 108.585 90)
@@ -15147,7 +15147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6a19a9e4-f0ac-4856-9e56-41916f945670")
 		(property "Reference" "TP2"
 			(at 149.86 76.835 90)
@@ -16704,7 +16704,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "855afab8-713b-4d69-bba4-18ed65fc2914")
 		(property "Reference" "TP1"
 			(at 150.495 81.915 90)
@@ -18893,7 +18893,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b9fb3edf-3db9-4a27-a184-649c2c7aee81")
 		(property "Reference" "TP3"
 			(at 50.292 51.562 0)
@@ -19504,7 +19504,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ad955f-d798-47aa-bd07-075c05ba6a0d")
 		(property "Reference" "J14"
@@ -19621,7 +19621,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "cfdf0f84-1727-458a-ab58-3838cc9831b9")
 		(property "Reference" "TP4"
 			(at 53.848 51.562 0)
@@ -19830,7 +19830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f5f69a-4d5a-45e2-9a81-fc667a209119")
 		(property "Reference" "J10"
@@ -19852,7 +19852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical"
 			(at 184.15 37.465 0)
 			(effects
 				(font
@@ -20233,7 +20233,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe940a4-0c40-4429-914d-9a2bae7d47e1")
 		(property "Reference" "J11"
@@ -20998,7 +20998,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f355c308-5a92-4d31-be75-f84d00fb47f4")
 		(property "Reference" "TP6"
@@ -21102,7 +21102,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4582f98-e615-4c38-b38e-13d5e7c4a9ce")
 		(property "Reference" "J9"
@@ -22070,7 +22070,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda77613-a6aa-4cf0-a9ce-610a11983942")
 		(property "Reference" "J12"
