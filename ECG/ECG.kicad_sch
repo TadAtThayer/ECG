@@ -5530,18 +5530,6 @@
 		(uuid 31a8dfd6-cf8e-46fa-b5ca-6ac41506bfc4)
 	)
 	(rectangle
-		(start 15.875 15.875)
-		(end 45.72 38.735)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 37e758ba-e570-496a-9f87-0d3c86eadcc3)
-	)
-	(rectangle
 		(start 123.19 129.54)
 		(end 173.355 195.58)
 		(stroke
@@ -5654,16 +5642,6 @@
 			)
 		)
 		(uuid "169f35ba-047c-4935-b6b8-53d0955e65f9")
-	)
-	(text "100mil ground pins for \nscope probe ground"
-		(exclude_from_sim no)
-		(at 31.115 20.193 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "19b793af-f8d8-4224-9444-315cd784e6bb")
 	)
 	(text "To Arduino D2\n"
 		(exclude_from_sim no)
@@ -5906,12 +5884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22b27308-70bb-4988-b11e-fda2287ccf11")
-	)
-	(junction
-		(at 26.67 27.305)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fdf2595-24bb-4b96-a855-9278a3be1d5e")
 	)
 	(junction
 		(at 147.955 104.14)
@@ -6355,16 +6327,6 @@
 	)
 	(wire
 		(pts
-			(xy 28.575 24.765) (xy 26.67 24.765)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bd5d28b-cf13-47f0-8ccb-38ea0a669ae5")
-	)
-	(wire
-		(pts
 			(xy 41.91 56.515) (xy 41.91 58.42)
 		)
 		(stroke
@@ -6512,16 +6474,6 @@
 			(type default)
 		)
 		(uuid "1d88439e-861d-4c41-a6ae-865881fd04f8")
-	)
-	(wire
-		(pts
-			(xy 26.67 27.305) (xy 28.575 27.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e113738-7795-4c74-9246-ffab6a2097a3")
 	)
 	(wire
 		(pts
@@ -6932,16 +6884,6 @@
 			(type default)
 		)
 		(uuid "5d452d88-f192-45d1-9f6d-0ae78ebcb0d2")
-	)
-	(wire
-		(pts
-			(xy 26.67 27.305) (xy 26.67 29.845)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4fd652-141b-484b-bba3-7e2379b2f210")
 	)
 	(wire
 		(pts
@@ -7862,16 +7804,6 @@
 			(type default)
 		)
 		(uuid "c64236ea-4429-482f-9bd9-e521de144ff1")
-	)
-	(wire
-		(pts
-			(xy 26.67 24.765) (xy 26.67 27.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c817238c-eddd-4bd7-8157-cc584664421f")
 	)
 	(wire
 		(pts
@@ -10526,72 +10458,6 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 29.845 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1520aeeb-06ca-4098-ac87-ad0daaca4101")
-		(property "Reference" "#PWR037"
-			(at 26.67 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 29.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c03658f8-c382-4fd3-893b-b0a92e5f4c1f")
-		)
-		(instances
-			(project "ECG"
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16997,122 +16863,6 @@
 			(project ""
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 33.655 24.765 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cc3ca1f-d54f-4c9d-98d1-474e26167ee9")
-		(property "Reference" "J7"
-			(at 36.195 26.0349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 36.195 27.3049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyPN" "2057-PH1-02-UA-ND"
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_PN" ""
-			(at 33.655 24.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e5f4486-c9df-4ee5-a27f-aaadc82fdbdb")
-		)
-		(pin "2"
-			(uuid "6dd2322c-5490-435e-8335-65e159beb0b9")
-		)
-		(instances
-			(project "ECG"
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "J7")
 					(unit 1)
 				)
 			)
