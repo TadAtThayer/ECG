@@ -9644,7 +9644,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT470KCT-ND"
+		(property "DigikeyPN" "13-MFR-25FTE52-470KCT-ND"
 			(at 78.105 89.535 90)
 			(effects
 				(font
@@ -9749,6 +9749,15 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2057-PH2-10-UA-ND"
 			(at 53.34 168.91 0)
 			(effects
 				(font
@@ -11358,6 +11367,15 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
+			(at 111.125 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-5905-ND"
 			(at 111.125 95.25 90)
 			(effects
 				(font
@@ -20419,6 +20437,15 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
+			(at 85.725 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "399-5455-1-ND"
 			(at 85.725 55.88 0)
 			(effects
 				(font
