@@ -5804,27 +5804,6 @@
 		)
 		(uuid "fc3a7a23-36c4-4327-94c9-37388c2549ea")
 	)
-	(text_box "Changes:\n1) Switch coin cell to BA2032SM or similar (DONE)\n2) AD3 control of Lead On (Done)\n3) Jumper in place of R14 (Done)\n4) D2 needs to change to a 1727-3853-1-ND or similar low leakage schottky. (Done)\n5) Consolidate AD3 points. (Done)"
-		(exclude_from_sim no)
-		(at 102.235 13.97 0)
-		(size 56.515 15.748)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.0508)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 0 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "5ef0406f-3636-455f-85ac-2609ae00453d")
-	)
 	(junction
 		(at 129.54 95.25)
 		(diameter 0)
@@ -9581,7 +9560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a31f069-0f53-4c75-b86c-e373959e9b04")
 		(property "Reference" "R11"
 			(at 80.391 89.662 90)
@@ -11294,7 +11273,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "22e084d4-8c23-4d70-9edc-bdd7eebd33ae")
 		(property "Reference" "C6"
 			(at 158.75 81.534 90)
@@ -12515,7 +12494,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3107b58c-45b6-4e1a-9300-8b264d3633f0")
 		(property "Reference" "C15"
 			(at 60.579 26.416 0)
@@ -17992,7 +17971,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a80fa189-1ee5-4618-923f-f348fc0b5cec")
 		(property "Reference" "C16"
 			(at 80.264 26.289 90)
@@ -18064,7 +18043,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_PN" ""
+		(property "Manufacturer_PN" "CL10B472KB8NNNC"
+			(at 77.47 26.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "1276-1098-1-ND"
 			(at 77.47 26.035 90)
 			(effects
 				(font
@@ -20249,7 +20237,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e9589463-5b8b-426c-9a74-e879da5b9f82")
 		(property "Reference" "R20"
 			(at 72.136 26.162 90)
@@ -20362,7 +20350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ea941068-401a-479f-ad81-694c07004530")
 		(property "Reference" "C2"
 			(at 83.185 54.6035 0)

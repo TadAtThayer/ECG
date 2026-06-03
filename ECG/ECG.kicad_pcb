@@ -536,7 +536,7 @@
 		(path "/e9589463-5b8b-426c-9a74-e879da5b9f82")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -2096,11 +2096,24 @@
 				)
 			)
 		)
+		(property "DigikeyPN" "399-5455-1-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ccc69b-c98b-4790-a4a2-36611de2169c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ea941068-401a-479f-ad81-694c07004530")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 6.22 -2.87)
 			(end 6.22 2.87)
@@ -4197,11 +4210,24 @@
 				)
 			)
 		)
+		(property "DigikeyPN" "399-5905-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d72a682-5968-47c9-b1ec-b98236e4d33f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/22e084d4-8c23-4d70-9edc-bdd7eebd33ae")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 6.22 -2.87)
 			(end 6.22 2.87)
@@ -4527,6 +4553,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c680bac7-1dc9-4217-8b62-fd3c493f4e36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigikeyPN" "2057-PH2-10-UA-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c58516-cd2d-4245-893b-ae15f02128a8")
 			(effects
 				(font
 					(size 1 1)
@@ -5304,7 +5343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PN" ""
+		(property "Manufacturer_PN" "CL10B472KB8NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5317,11 +5356,24 @@
 				)
 			)
 		)
+		(property "DigikeyPN" "1276-1098-1-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3b8ce77-725b-4e9c-ae56-c1fb22150291")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a80fa189-1ee5-4618-923f-f348fc0b5cec")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -12780,7 +12832,7 @@
 		(path "/3107b58c-45b6-4e1a-9300-8b264d3633f0")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
@@ -15556,7 +15608,7 @@
 				)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT470KCT-ND"
+		(property "DigikeyPN" "13-MFR-25FTE52-470KCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15599,7 +15651,7 @@
 		(path "/0a31f069-0f53-4c75-b86c-e373959e9b04")
 		(sheetname "/")
 		(sheetfile "ECG.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.37 0)
 			(end 1.44 0)
@@ -19037,19 +19089,7 @@
 			(uuid "650266dd-646d-49e6-921b-6ced4307ce41")
 		)
 		(fp_text user "*"
-			(at 1 -3.0954 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "68ca56d9-a58a-4d6e-b2af-86924debcb63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at 0.987602 -3.639 180)
+			(at 1.597202 -3.5374 180)
 			(layer "F.SilkS")
 			(uuid "c9b88c26-f368-422b-a5dd-76728c44e63b")
 			(effects
