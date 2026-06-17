@@ -5746,7 +5746,7 @@
 	)
 	(text "Shunt blocks\n"
 		(exclude_from_sim no)
-		(at 169.418 57.404 0)
+		(at 169.545 64.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5943,6 +5943,12 @@
 		(uuid "8556ff62-8941-4595-8694-1eab1f6f582b")
 	)
 	(junction
+		(at 177.8 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "861a6973-724d-4357-ba57-34de42961dc6")
+	)
+	(junction
 		(at 60.96 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6089,7 +6095,7 @@
 		(uuid "17fde6f2-6b0a-4bc7-a6a2-4f5d2451ee70")
 	)
 	(no_connect
-		(at 164.465 30.48)
+		(at 164.465 29.21)
 		(uuid "28c22a93-7507-4eb1-b0f2-d7d4d5b0d82f")
 	)
 	(no_connect
@@ -6101,11 +6107,11 @@
 		(uuid "3b27e4e0-23df-4c15-a4ef-3459a3db3539")
 	)
 	(no_connect
-		(at 164.465 20.955)
+		(at 164.465 19.685)
 		(uuid "3b8379a1-7fda-4d91-b909-99b9c59af07c")
 	)
 	(no_connect
-		(at 164.465 51.435)
+		(at 164.465 50.165)
 		(uuid "4168f6b4-7164-41d9-a3f9-cc9dc8300534")
 	)
 	(no_connect
@@ -6153,7 +6159,7 @@
 		(uuid "5f0e4faf-c302-4c81-98b6-fba274f766e7")
 	)
 	(no_connect
-		(at 164.465 44.45)
+		(at 164.465 43.18)
 		(uuid "61a0b307-220f-4f34-8da9-a6f948fc628b")
 	)
 	(no_connect
@@ -6161,15 +6167,19 @@
 		(uuid "78adf96b-1d8d-45e2-a047-5d6896f77905")
 	)
 	(no_connect
-		(at 164.465 41.91)
+		(at 164.465 40.64)
 		(uuid "808ec8a2-dbd2-4840-8ccc-3e928276f1c1")
+	)
+	(no_connect
+		(at 164.465 57.15)
+		(uuid "816d4d2f-ee11-4004-abce-688261f165bc")
 	)
 	(no_connect
 		(at 204.47 37.465)
 		(uuid "82406985-e404-49b1-8860-9f417d5b7e1d")
 	)
 	(no_connect
-		(at 164.465 27.94)
+		(at 164.465 26.67)
 		(uuid "87b0f651-edca-49e7-972f-bb7a64fc9bc9")
 	)
 	(no_connect
@@ -6193,7 +6203,7 @@
 		(uuid "a6fc3e1c-4bbb-4dc6-98b4-0145152ee8d6")
 	)
 	(no_connect
-		(at 164.465 23.495)
+		(at 164.465 22.225)
 		(uuid "a9949acb-a025-4bc0-a89e-84f22a91e83e")
 	)
 	(no_connect
@@ -6209,12 +6219,16 @@
 		(uuid "b126d893-3f7c-4da2-a03b-e5fa62bf9329")
 	)
 	(no_connect
-		(at 164.465 37.465)
+		(at 164.465 36.195)
 		(uuid "b6d104f6-2da3-44b3-9c36-a7105530e106")
 	)
 	(no_connect
 		(at 189.23 34.925)
 		(uuid "b85dca46-876f-46f2-8ebd-dbb84b3f8694")
+	)
+	(no_connect
+		(at 164.465 54.61)
+		(uuid "c093b7f5-8198-471c-a301-f958efb3c8ad")
 	)
 	(no_connect
 		(at 204.47 24.765)
@@ -6229,7 +6243,7 @@
 		(uuid "cebd74c0-2ce1-4f54-a530-7888aaf40641")
 	)
 	(no_connect
-		(at 164.465 34.925)
+		(at 164.465 33.655)
 		(uuid "d62f7e5a-495b-4ddf-8a3f-9941bb3a0073")
 	)
 	(no_connect
@@ -6237,7 +6251,7 @@
 		(uuid "da6cc540-4dec-4af7-baa5-e02439600964")
 	)
 	(no_connect
-		(at 164.465 48.895)
+		(at 164.465 47.625)
 		(uuid "efcee26d-a589-4ff5-b1a3-46cb19e18ed9")
 	)
 	(no_connect
@@ -6263,16 +6277,6 @@
 			(type default)
 		)
 		(uuid "0353a61f-8400-4f49-be58-1d96c65ea53c")
-	)
-	(wire
-		(pts
-			(xy 182.88 95.25) (xy 211.455 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e825c7-4608-4a00-ad88-8dc17dc4f2ed")
 	)
 	(wire
 		(pts
@@ -6556,6 +6560,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 85.725) (xy 177.8 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eac8161-7faf-407a-9248-f34ab62b0a9b")
+	)
+	(wire
+		(pts
 			(xy 123.825 38.1) (xy 129.54 38.1)
 		)
 		(stroke
@@ -6583,6 +6597,16 @@
 			(type default)
 		)
 		(uuid "34310a8b-a983-4898-a797-2be305238329")
+	)
+	(wire
+		(pts
+			(xy 187.96 87.63) (xy 187.96 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351a84be-9be6-497d-879c-88cd83a0cf6c")
 	)
 	(wire
 		(pts
@@ -7156,6 +7180,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 95.25) (xy 211.455 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c23028-6179-482c-8e15-17feee4fdf78")
+	)
+	(wire
+		(pts
 			(xy 116.84 43.18) (xy 116.84 44.45)
 		)
 		(stroke
@@ -7203,6 +7237,26 @@
 			(type default)
 		)
 		(uuid "7e80d297-200c-4c94-8ebf-0099544c42cb")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 177.8 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9869c5-fd8c-4baa-884a-213be9da61b2")
+	)
+	(wire
+		(pts
+			(xy 168.275 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec66e27-b891-4153-b3c4-64a9ce03a5be")
 	)
 	(wire
 		(pts
@@ -7716,6 +7770,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 85.725) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde73917-1837-404d-a7c6-5e78b3a895d2")
+	)
+	(wire
+		(pts
 			(xy 123.825 52.705) (xy 129.54 52.705)
 		)
 		(stroke
@@ -7833,16 +7897,6 @@
 			(type default)
 		)
 		(uuid "cf351e72-2bd8-4a79-8ba3-9890375d18c2")
-	)
-	(wire
-		(pts
-			(xy 177.8 85.725) (xy 177.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4d00fd-a0d8-4af0-8511-e68b6d328540")
 	)
 	(wire
 		(pts
@@ -8545,12 +8599,12 @@
 		(uuid "484d53fa-bdf4-4435-abf8-7e1aad32ac8f")
 	)
 	(label "HR_SIGNAL"
-		(at 194.945 95.25 0)
+		(at 206.375 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "49019ef6-a1a5-4c1c-a456-61788d918def")
 	)
@@ -8634,16 +8688,6 @@
 		)
 		(uuid "6a0ded33-80fc-4ab7-a435-272dc29f9907")
 	)
-	(label "VIN"
-		(at 177.8 85.725 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a97128e-d95c-4859-8be0-2716d1596fc4")
-	)
 	(label "D12"
 		(at 170.18 137.795 180)
 		(effects
@@ -8673,6 +8717,16 @@
 			(justify left bottom)
 		)
 		(uuid "6df7a144-76d6-4bf9-99eb-5120ff45a73b")
+	)
+	(label "VIN"
+		(at 168.275 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ea45a41-c8fb-4a87-8527-6c4267710d50")
 	)
 	(label "LEADS_ON_PROT"
 		(at 260.35 74.93 180)
@@ -11980,6 +12034,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 169.545 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a400a82-5834-4806-992e-77a436198b9e")
+		(property "Reference" "J16"
+			(at 172.085 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Shunt block"
+			(at 172.085 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Mil shorting block"
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "S9341-ND"
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6055e86a-2dc7-4ccd-ba47-7321e6601547")
+		)
+		(pin "2"
+			(uuid "2ca54d27-f7de-4064-8f3b-f13f2d7e5207")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 60.96 92.71 180)
 		(unit 1)
@@ -12666,7 +12837,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 169.545 20.955 0)
+		(at 169.545 19.685 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12675,7 +12846,7 @@
 		(fields_autoplaced yes)
 		(uuid "3719b38a-02fb-47ae-9f55-ddc8f94d9fdc")
 		(property "Reference" "J13"
-			(at 172.085 22.2249 0)
+			(at 172.085 20.9549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,7 +12856,7 @@
 			)
 		)
 		(property "Value" "Shunt block"
-			(at 172.085 23.4949 0)
+			(at 172.085 22.2249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12884,7 @@
 			)
 		)
 		(property "Description" "100 Mil shorting block"
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12893,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12902,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12911,7 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +12920,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +12929,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 169.545 20.955 0)
+			(at 169.545 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +12954,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 169.545 48.895 0)
+		(at 169.545 47.625 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12792,7 +12963,7 @@
 		(fields_autoplaced yes)
 		(uuid "38ee4cf5-cf4b-486b-a962-eafe3ff35f01")
 		(property "Reference" "J15"
-			(at 172.085 50.1649 0)
+			(at 172.085 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12802,7 +12973,7 @@
 			)
 		)
 		(property "Value" "Shunt block"
-			(at 172.085 51.4349 0)
+			(at 172.085 50.1649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,7 +12983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,7 +12992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +13001,7 @@
 			)
 		)
 		(property "Description" "100 Mil shorting block"
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +13010,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12848,7 +13019,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,7 +13028,7 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +13037,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12875,7 +13046,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 169.545 48.895 0)
+			(at 169.545 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,6 +13219,125 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:T2N7002AK")
+		(at 187.96 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dece090-3ba8-4d1c-85ca-1e53adeeb708")
+		(property "Reference" "Q6"
+			(at 187.96 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T2N7002AK"
+			(at 187.96 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 186.055 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=29712&prodName=T2N7002AK"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "T2N7002AKLMCT-ND"
+			(at 187.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 187.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 187.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd17067-f222-4aa7-8473-b6644401add3")
+		)
+		(pin "3"
+			(uuid "1d6d5b0c-dde6-4311-9469-09b9b81428fd")
+		)
+		(pin "2"
+			(uuid "e07233d6-ba63-44ab-9a34-cdc70480ca17")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -13690,6 +13980,124 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 177.8 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c3b7fc2-41bd-4a54-85f0-837ed5e3e589")
+		(property "Reference" "J7"
+			(at 177.165 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 183.515 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "732-5316-ND"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146f0608-90cf-4d55-93d2-8e890642cb42")
+		)
+		(pin "3"
+			(uuid "6426c1ef-83f6-401b-8d50-d86d9ac2bc82")
+		)
+		(pin "2"
+			(uuid "c99bf7f3-f786-45de-8508-93cd58445311")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -18521,6 +18929,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 180.34 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f433d6-cf93-4e1c-9470-8289c49a1918")
+		(property "Reference" "#PWR042"
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdc78f7-b387-4a78-902a-f3ae46b730a9")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMG2301L")
 		(at 93.345 149.86 0)
 		(mirror x)
@@ -19255,7 +19731,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 169.545 27.94 0)
+		(at 169.545 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19264,7 +19740,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ad955f-d798-47aa-bd07-075c05ba6a0d")
 		(property "Reference" "J14"
-			(at 172.085 29.2099 0)
+			(at 172.085 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19274,7 +19750,7 @@
 			)
 		)
 		(property "Value" "Shunt block"
-			(at 172.085 30.4799 0)
+			(at 172.085 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19284,7 +19760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19293,7 +19769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19302,7 +19778,7 @@
 			)
 		)
 		(property "Description" "100 Mil shorting block"
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19311,7 +19787,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19320,7 +19796,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19329,7 +19805,7 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19338,7 +19814,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19347,7 +19823,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 169.545 27.94 0)
+			(at 169.545 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19984,7 +20460,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 169.545 34.925 0)
+		(at 169.545 33.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19993,7 +20469,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfe940a4-0c40-4429-914d-9a2bae7d47e1")
 		(property "Reference" "J11"
-			(at 172.085 36.1949 0)
+			(at 172.085 34.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20479,7 @@
 			)
 		)
 		(property "Value" "Shunt block"
-			(at 172.085 37.4649 0)
+			(at 172.085 36.1949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20013,7 +20489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20022,7 +20498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20031,7 +20507,7 @@
 			)
 		)
 		(property "Description" "100 Mil shorting block"
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20040,7 +20516,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20049,7 +20525,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20058,7 +20534,7 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20067,7 +20543,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20076,7 +20552,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 169.545 34.925 0)
+			(at 169.545 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21830,7 +22306,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 169.545 41.91 0)
+		(at 169.545 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21839,7 +22315,7 @@
 		(fields_autoplaced yes)
 		(uuid "fda77613-a6aa-4cf0-a9ce-610a11983942")
 		(property "Reference" "J12"
-			(at 172.085 43.1799 0)
+			(at 172.085 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21849,7 +22325,7 @@
 			)
 		)
 		(property "Value" "Shunt block"
-			(at 172.085 44.4499 0)
+			(at 172.085 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21859,7 +22335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21868,7 +22344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21877,7 +22353,7 @@
 			)
 		)
 		(property "Description" "100 Mil shorting block"
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21886,7 +22362,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21895,7 +22371,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21904,7 +22380,7 @@
 			)
 		)
 		(property "DigikeyPN" "S9341-ND"
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21913,7 +22389,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21922,7 +22398,7 @@
 			)
 		)
 		(property "Manufacturer_PN" ""
-			(at 169.545 41.91 0)
+			(at 169.545 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
