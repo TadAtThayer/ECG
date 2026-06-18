@@ -5865,7 +5865,7 @@
 	)
 	(text "2032 Coin Cell\n"
 		(exclude_from_sim no)
-		(at 200.025 161.925 0)
+		(at 187.96 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6976,7 +6976,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 146.05) (xy 244.475 146.05)
+			(xy 247.65 146.05) (xy 243.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7033,16 +7033,6 @@
 			(type default)
 		)
 		(uuid "53b0efd2-890a-4c61-892b-c2e9aabd2ef0")
-	)
-	(wire
-		(pts
-			(xy 244.475 146.05) (xy 244.475 154.305)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55cc1587-0b90-47a9-b076-1335b7e3ef70")
 	)
 	(wire
 		(pts
@@ -7806,6 +7796,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 146.05) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a914b855-3bb6-476f-a515-b6211f8c81ce")
+	)
+	(wire
+		(pts
 			(xy 63.5 158.115) (xy 63.5 159.385)
 		)
 		(stroke
@@ -7843,6 +7843,16 @@
 			(type default)
 		)
 		(uuid "ab016c92-a536-401b-9b91-f4c830fa8301")
+	)
+	(wire
+		(pts
+			(xy 199.39 151.13) (xy 199.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1d7489-f5fe-4882-bfe7-9ce4ddd2e786")
 	)
 	(wire
 		(pts
@@ -8273,16 +8283,6 @@
 			(type default)
 		)
 		(uuid "e0cdbebe-70f3-4be4-a545-d598dd1e30cb")
-	)
-	(wire
-		(pts
-			(xy 199.39 151.13) (xy 199.39 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c42f03-3d3d-485d-89cf-25febd7218a4")
 	)
 	(wire
 		(pts
@@ -19759,6 +19759,118 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 243.84 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba9fe771-b625-4867-b538-a1dbd1b8c808")
+		(property "Reference" "R23"
+			(at 239.268 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 241.046 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 243.84 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 243.84 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT1R00CT-ND"
+			(at 243.84 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 243.84 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ec3ccb-68e9-4939-9cd4-324dfad04ec1")
+		)
+		(pin "2"
+			(uuid "f745d202-a5fe-4606-9db4-f48ffb8f9175")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 46.355 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21135,6 +21247,118 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 199.39 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4caf139-43a1-43e1-afbf-330ad5b96fbe")
+		(property "Reference" "R21"
+			(at 194.818 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 196.596 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 199.39 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 199.39 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "RMCF0603FT1R00CT-ND"
+			(at 199.39 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" ""
+			(at 199.39 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eee549a-fec6-4d56-b38d-68daf311d3f7")
+		)
+		(pin "2"
+			(uuid "8db4c8da-3dfa-4995-bc7b-c838bfb279aa")
+		)
+		(instances
+			(project "ECG"
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -22739,7 +22963,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 153.67 0)
+		(at 199.39 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22748,7 +22972,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcd129cf-e996-47dc-b08d-b8fb31f72a1e")
 		(property "Reference" "#PWR07"
-			(at 199.39 160.02 0)
+			(at 199.39 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,15 +22981,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 158.75 0)
+			(at 199.39 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 153.67 0)
+			(at 199.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22774,7 +22999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 153.67 0)
+			(at 199.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22783,7 +23008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 153.67 0)
+			(at 199.39 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22922,7 +23147,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 244.475 154.305 0)
+		(at 243.84 158.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22931,7 +23156,7 @@
 		(dnp no)
 		(uuid "ffcd6cdf-9473-41f1-ae79-21767d2aadf9")
 		(property "Reference" "#PWR010"
-			(at 244.475 160.655 0)
+			(at 243.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22940,15 +23165,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 244.475 159.385 0)
+			(at 243.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 244.475 154.305 0)
+			(at 243.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22957,7 +23183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 244.475 154.305 0)
+			(at 243.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22966,7 +23192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 244.475 154.305 0)
+			(at 243.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
