@@ -5293,12 +5293,8 @@
 			(embedded_fonts no)
 		)
 		(symbol "StockedComponents:MIC920YC5-TR"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0.254)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5378,7 +5374,7 @@
 			(symbol "MIC920YC5-TR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
+						(xy 7.62 2.54) (xy 7.62 -7.62)
 					)
 					(stroke
 						(width 0.2032)
@@ -5392,7 +5388,7 @@
 			(symbol "MIC920YC5-TR_1_1"
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 22.86 -2.54) (xy 7.62 5.08)
+						(xy 7.62 -7.62) (xy 17.78 -2.54) (xy 7.62 2.54)
 					)
 					(stroke
 						(width 0)
@@ -5455,7 +5451,7 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 5.08 270)
+					(at 12.7 3.81 270)
 					(length 3.175)
 					(name "V+"
 						(effects
@@ -5473,7 +5469,7 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 -10.16 90)
+					(at 12.7 -8.89 90)
 					(length 3.175)
 					(name "V-"
 						(effects
@@ -5491,7 +5487,7 @@
 					)
 				)
 				(pin output line
-					(at 25.4 -2.54 180)
+					(at 20.32 -2.54 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -9675,6 +9671,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 123.825) (xy 66.675 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b197b3fd-88f5-4594-9937-e0664d38b411")
+	)
+	(wire
+		(pts
 			(xy 38.735 168.91) (xy 40.005 168.91)
 		)
 		(stroke
@@ -10863,6 +10869,16 @@
 		)
 		(uuid "79a15469-f182-41e9-bd2f-804361849635")
 	)
+	(label "9VSens"
+		(at 256.54 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ae8ab6b-cd5f-46d3-8984-37ec490e1ec7")
+	)
 	(label "RL"
 		(at 40.64 82.55 0)
 		(effects
@@ -10992,6 +11008,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae85f6cf-0f26-4a63-865a-fd5dd6889e4c")
+	)
+	(label "3VSens"
+		(at 224.155 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf7c8557-4081-4623-89ea-45046aeee0ae")
 	)
 	(label "PWR_HOLD"
 		(at 260.35 77.47 180)
@@ -13200,7 +13226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical"
 			(at 144.145 155.575 0)
 			(effects
 				(font
@@ -14225,7 +14251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 233.68 154.305 0)
 			(effects
 				(font
@@ -17168,7 +17194,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 73.025 116.205 0)
+		(at 74.295 117.475 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17177,7 +17203,7 @@
 		(dnp no)
 		(uuid "5bf24fd5-794c-4839-a223-a1c22148e0f2")
 		(property "Reference" "#PWR045"
-			(at 73.025 120.015 0)
+			(at 74.295 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17186,7 +17212,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 69.596 114.554 0)
+			(at 70.866 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17194,7 +17220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.025 116.205 0)
+			(at 74.295 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17203,7 +17229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.025 116.205 0)
+			(at 74.295 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17212,7 +17238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 73.025 116.205 0)
+			(at 74.295 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17362,7 +17388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "StockedComponents:SC-70_C5_MCH"
+		(property "Footprint" "SC-70_C5_MCH"
 			(at 86.995 121.285 0)
 			(effects
 				(font
@@ -23414,7 +23440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.025 131.445 0)
+		(at 74.295 130.175 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23423,7 +23449,7 @@
 		(fields_autoplaced yes)
 		(uuid "e95ed62f-dbbe-48f0-b7d2-838c32022003")
 		(property "Reference" "#PWR046"
-			(at 73.025 137.795 0)
+			(at 74.295 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23432,7 +23458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.025 135.89 0)
+			(at 74.295 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23441,7 +23467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.025 131.445 0)
+			(at 74.295 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23450,7 +23476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.025 131.445 0)
+			(at 74.295 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23459,7 +23485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.025 131.445 0)
+			(at 74.295 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23733,7 +23759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical"
 			(at 159.385 155.575 0)
 			(effects
 				(font
