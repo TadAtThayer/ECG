@@ -7342,22 +7342,10 @@
 		(uuid "1bf3c55e-6f87-4f39-83f1-599e27584ba6")
 	)
 	(junction
-		(at 85.09 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eb4aa09-faf6-46ff-8460-75244cae8a37")
-	)
-	(junction
 		(at 167.005 147.955)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2087c03f-0fb1-4636-ae85-cb0b4389360b")
-	)
-	(junction
-		(at 113.665 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22b27308-70bb-4988-b11e-fda2287ccf11")
 	)
 	(junction
 		(at 139.065 170.815)
@@ -7438,12 +7426,6 @@
 		(uuid "55818d48-87d3-406f-bc15-44f3eaf50bd5")
 	)
 	(junction
-		(at 93.345 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5bbe8189-ff90-49ab-b08d-d11d7a6a622e")
-	)
-	(junction
 		(at 118.745 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7454,12 +7436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63e9252a-dfee-4bcc-ba0b-acb573792948")
-	)
-	(junction
-		(at 93.345 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6695412a-50d9-4825-8976-be2b08b02db8")
 	)
 	(junction
 		(at 139.065 165.735)
@@ -7610,12 +7586,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef33635-f819-4ae6-bc06-1abb1cbce9af")
-	)
-	(junction
-		(at 78.105 85.725)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b33b0b6b-25be-4b76-9a10-7cb7b070bb80")
 	)
 	(junction
 		(at 85.725 149.86)
@@ -8113,7 +8083,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 85.725) (xy 78.105 43.18)
+			(xy 78.105 43.18) (xy 78.105 86.995)
 		)
 		(stroke
 			(width 0)
@@ -8150,16 +8120,6 @@
 			(type default)
 		)
 		(uuid "199c2c22-64a3-4a6e-a879-9b6e36da5984")
-	)
-	(wire
-		(pts
-			(xy 85.09 92.71) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19cb0ec0-0a40-4180-a797-714dc316fc30")
 	)
 	(wire
 		(pts
@@ -8200,16 +8160,6 @@
 			(type default)
 		)
 		(uuid "201e6975-1d57-4f09-8170-d1499d45a295")
-	)
-	(wire
-		(pts
-			(xy 93.345 50.8) (xy 103.505 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212f92e1-d8e9-4960-a73a-853c62624a26")
 	)
 	(wire
 		(pts
@@ -8673,23 +8623,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 50.8) (xy 93.345 50.8)
+			(xy 85.725 50.8) (xy 103.505 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d455c1e-ebc2-4a22-9dd2-96f221af585e")
-	)
-	(wire
-		(pts
-			(xy 85.09 85.725) (xy 78.105 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e4a388d-e0aa-4a6c-9300-4a2589d50906")
 	)
 	(wire
 		(pts
@@ -8750,16 +8690,6 @@
 			(type default)
 		)
 		(uuid "5a129f64-6c38-4a64-8806-92ffe8ca5cc7")
-	)
-	(wire
-		(pts
-			(xy 113.665 102.235) (xy 113.665 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b5ba63d-6e94-4d82-a305-3f0c420a3cd0")
 	)
 	(wire
 		(pts
@@ -8863,16 +8793,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 95.25) (xy 108.585 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652ee762-f618-4e91-86ac-3ba89a1f4497")
-	)
-	(wire
-		(pts
 			(xy 78.105 43.18) (xy 108.585 43.18)
 		)
 		(stroke
@@ -8890,16 +8810,6 @@
 			(type default)
 		)
 		(uuid "6610e4fe-7b4a-46d2-816f-225c96122043")
-	)
-	(wire
-		(pts
-			(xy 93.345 50.8) (xy 93.345 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b5de52-be4f-4418-b3f0-7dc106569452")
 	)
 	(wire
 		(pts
@@ -9133,7 +9043,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 62.23) (xy 93.345 62.23)
+			(xy 85.725 62.23) (xy 95.885 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9623,16 +9533,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 62.23) (xy 95.885 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab23d146-f0cf-4a1c-a45d-5d290863b646")
-	)
-	(wire
-		(pts
 			(xy 154.305 147.955) (xy 167.005 147.955)
 		)
 		(stroke
@@ -9900,16 +9800,6 @@
 			(type default)
 		)
 		(uuid "cdf2c25e-475b-4713-9228-f7320cae9a92")
-	)
-	(wire
-		(pts
-			(xy 85.09 87.63) (xy 85.09 85.725)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf351e72-2bd8-4a79-8ba3-9890375d18c2")
 	)
 	(wire
 		(pts
@@ -10213,7 +10103,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 95.25) (xy 113.665 102.235)
+			(xy 113.665 95.25) (xy 113.665 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10243,16 +10133,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.345 58.42) (xy 93.345 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58a320e-23b8-41c1-a114-59df05388896")
-	)
-	(wire
-		(pts
 			(xy 123.825 95.25) (xy 123.825 90.17)
 		)
 		(stroke
@@ -10273,17 +10153,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 85.725) (xy 78.105 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73c961d-bb75-4372-9bcf-90c9ed125e6f")
-	)
-	(wire
-		(pts
-			(xy 85.09 95.25) (xy 108.585 95.25)
+			(xy 78.105 95.25) (xy 108.585 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10310,16 +10180,6 @@
 			(type default)
 		)
 		(uuid "f93a5027-2866-4117-a82f-32c57db1847b")
-	)
-	(wire
-		(pts
-			(xy 78.105 95.25) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ac3a64-886d-4676-9894-ac011dc4d3eb")
 	)
 	(wire
 		(pts
@@ -12730,109 +12590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 85.09 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "180394ea-4cfc-4940-88ec-f1c41b3e019e")
-		(property "Reference" "R22"
-			(at 82.804 90.043 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 86.868 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 85.09 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 85.09 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 85.09 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 85.09 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 85.09 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_PN" ""
-			(at 85.09 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30554c04-c1b6-4d23-8bbc-11974e223aa3")
-		)
-		(pin "2"
-			(uuid "ff5807f2-817d-422a-adba-353a56b570da")
-		)
-		(instances
-			(project "ECG"
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 269.875 69.215 0)
 		(mirror x)
@@ -13608,6 +13365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
@@ -21545,109 +21303,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 111.125 102.235 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ba17b52e-dd63-4ac3-82de-ed3699c30647")
-		(property "Reference" "C21"
-			(at 110.871 105.029 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 111.125 106.807 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 111.125 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.125 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.125 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 111.125 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 111.125 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 111.125 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_PN" ""
-			(at 111.125 102.235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68152514-213e-4543-a579-8e5388fff752")
-		)
-		(pin "2"
-			(uuid "494702be-fcf7-46ff-92ef-91e1e4d0ae48")
-		)
-		(instances
-			(project "ECG"
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 266.7 157.48 0)
 		(unit 1)
@@ -22446,112 +22101,6 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 93.345 55.88 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d139b844-ad4f-484d-a194-2b38bdc3e6c5")
-		(property "Reference" "C22"
-			(at 90.805 54.6035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 90.805 57.1435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_PN" ""
-			(at 93.345 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9abb3403-23b5-4b01-a660-6a86c8dfd3d4")
-		)
-		(pin "2"
-			(uuid "223fa156-9070-45a8-9745-a6f56913e6e3")
-		)
-		(instances
-			(project "ECG"
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "C22")
 					(unit 1)
 				)
 			)
