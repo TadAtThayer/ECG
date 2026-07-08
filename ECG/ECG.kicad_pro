@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|98052252|39117683|1272c956-f5d8-4b33-9500-2215c8d6721f|bdcf74ab-cf0f-4be0-ae9c-ba90826eff8b",
-          ""
-        ],
-        [
           "footprint_type_mismatch|106680000|119380000|28e91847-681e-4899-817a-951ab90d4e28|00000000-0000-0000-0000-000000000000",
           "This is not really a pad."
         ],
@@ -77,10 +73,6 @@
         ],
         [
           "missing_courtyard|133096000|121031000|2c9d8857-92f4-4b11-88d7-8b6ffcbdb28d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|98425000|42545000|5de31dd7-ba48-4caa-8136-4822c3937d04|bdcf74ab-cf0f-4be0-ae9c-ba90826eff8b",
           ""
         ]
       ],
@@ -969,13 +961,13 @@
           "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
