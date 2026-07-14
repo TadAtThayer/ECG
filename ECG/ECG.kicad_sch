@@ -13472,6 +13472,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigikeyPN" "732-5306-ND"
+			(at 144.145 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "2ad421bd-90e6-44d2-a970-f5f8f2735998")
 		)
@@ -13577,7 +13586,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1dfce343-87ed-48c2-ba92-a6d9e74b04f7")
@@ -14646,6 +14655,15 @@
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 233.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "2057-PH2-08-UA-ND"
+			(at 233.68 154.305 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,7 +16537,7 @@
 		(at 107.95 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18813,7 +18831,7 @@
 		(at 229.235 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -20283,7 +20301,7 @@
 		(at 129.54 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a5d334a-2ee1-4ef1-8183-60acad7182e2")
@@ -21670,6 +21688,15 @@
 			)
 		)
 		(property "Description" "Low Power Slow Op Amp"
+			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "576-2575-1-ND"
 			(at 86.995 121.285 0)
 			(effects
 				(font
@@ -23068,7 +23095,7 @@
 		(at 187.96 37.465 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24456,6 +24483,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 159.385 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" "732-5306-ND"
 			(at 159.385 155.575 0)
 			(effects
 				(font
