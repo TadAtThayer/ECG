@@ -135,7 +135,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerber/V1.0c/")
+			(outputdirectory "Gerber/V1.1/")
 		)
 	)
 	(net 0 "")
