@@ -13112,7 +13112,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -14255,7 +14255,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -15532,7 +15532,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "311-2082-1-ND"
 			(at 71.12 24.13 0)
 			(effects
 				(font
@@ -17905,7 +17905,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 99.695 104.14 0)
 			(effects
 				(font
@@ -21137,7 +21137,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -22792,7 +22792,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 129.54 40.64 0)
 			(effects
 				(font
@@ -23482,7 +23482,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 269.875 69.215 0)
 			(effects
 				(font
@@ -23843,7 +23843,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "1276-1941-1-ND"
+		(property "DigikeyPN" "1276-1000-1-ND"
 			(at 89.535 122.555 0)
 			(effects
 				(font
