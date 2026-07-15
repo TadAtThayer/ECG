@@ -5292,7 +5292,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "StockedComponents:LMC7101BYM5"
+		(symbol "StockedComponents:OPA237NA-3K"
 			(pin_names
 				(offset 0.254)
 			)
@@ -5363,7 +5363,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMC7101BYM5_0_1"
+			(symbol "OPA237NA-3K_0_1"
 				(polyline
 					(pts
 						(xy 7.62 2.54) (xy 7.62 -7.62)
@@ -5377,7 +5377,7 @@
 					)
 				)
 			)
-			(symbol "LMC7101BYM5_1_1"
+			(symbol "OPA237NA-3K_1_1"
 				(polyline
 					(pts
 						(xy 7.62 -7.62) (xy 17.78 -2.54) (xy 7.62 2.54)
@@ -5452,7 +5452,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5470,7 +5470,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12838,7 +12838,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 46.355 72.39 90)
 			(effects
 				(font
@@ -13310,7 +13310,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
+		(property "DigikeyPN" "311-1.0MGRCT-ND"
 			(at 73.66 144.145 0)
 			(effects
 				(font
@@ -14159,7 +14159,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
+		(property "DigikeyPN" "311-1.0MGRCT-ND"
 			(at 121.285 95.25 90)
 			(effects
 				(font
@@ -15155,7 +15155,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 106.045 50.8 90)
 			(effects
 				(font
@@ -19584,7 +19584,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 123.825 35.56 90)
 			(effects
 				(font
@@ -20108,6 +20108,97 @@
 			(project "ECG"
 				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StockedComponents:OPA237NA-3K")
+		(at 86.995 121.285 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "884934e7-e17c-447a-9f6c-654bb4e8df2c")
+		(property "Reference" "U2"
+			(at 77.4131 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OPA237NA/3K"
+			(at 70.485 120.015 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fopa2237"
+			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Power Op Amp"
+			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKeyPN" "296-26265-1-ND"
+			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b12d2b66-1fd4-4a3c-bb29-37fa6339d818")
+		)
+		(pin "4"
+			(uuid "5beb3a6e-cff3-4981-b263-914541616575")
+		)
+		(pin "5"
+			(uuid "73056407-e4d3-4c0a-beb7-0b0abee9abc4")
+		)
+		(pin "2"
+			(uuid "75ccdb58-2c48-42ca-bd1e-0120d8514d97")
+		)
+		(pin "1"
+			(uuid "add13d46-f90c-4157-89c6-9ac8a684be55")
+		)
+		(instances
+			(project ""
+				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21754,97 +21845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "StockedComponents:LMC7101BYM5")
-		(at 86.995 121.285 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2a7db7b-9f9c-4934-a1e2-4d02d03b3c01")
-		(property "Reference" "U2"
-			(at 77.4131 116.84 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LMC7101BYM5"
-			(at 70.485 120.015 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 86.995 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/LMC7101-Low-Power-Operational-Amplifier-DS20006282A.pdf"
-			(at 86.995 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Power Slow Op Amp"
-			(at 86.995 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigikeyPN" "576-2575-1-ND"
-			(at 86.995 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e93b6b3b-be64-49a4-af8a-cd815f537ad1")
-		)
-		(pin "1"
-			(uuid "dd1c35af-e95e-4599-a04b-34adeff8f9d5")
-		)
-		(pin "3"
-			(uuid "335ffb4f-ccb9-45e2-9521-9dbd7165284d")
-		)
-		(pin "4"
-			(uuid "048b3844-ba7a-4fd5-9242-e297e50b0ddf")
-		)
-		(pin "2"
-			(uuid "98bda638-b30b-427b-a914-410cb728d57a")
-		)
-		(instances
-			(project ""
-				(path "/e3a79443-8349-4546-8b4f-331bcc551083"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 165.735 90)
 		(unit 1)
@@ -22471,7 +22471,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT1R00CT-ND"
+		(property "DigikeyPN" "13-RT0603BRD071RLCT-ND"
 			(at 266.7 157.48 90)
 			(effects
 				(font
@@ -22583,7 +22583,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 46.355 67.31 90)
 			(effects
 				(font
@@ -22698,7 +22698,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT1M00CT-ND"
+		(property "DigikeyPN" "311-1.0MGRCT-ND"
 			(at 31.75 155.575 0)
 			(effects
 				(font
@@ -24039,7 +24039,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT1R00CT-ND"
+		(property "DigikeyPN" "13-RT0603BRD071RLCT-ND"
 			(at 222.25 157.48 90)
 			(effects
 				(font
@@ -25141,7 +25141,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 123.825 40.64 90)
 			(effects
 				(font
@@ -25533,7 +25533,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603FT10M0CT-ND"
+		(property "DigikeyPN" "311-10.0MHRCT-ND"
 			(at 116.84 40.64 90)
 			(effects
 				(font
@@ -25645,7 +25645,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "RMCF0603JJ1K00CT-ND"
+		(property "DigikeyPN" "311-1.00KFRCT-ND"
 			(at 129.54 105.41 90)
 			(effects
 				(font
