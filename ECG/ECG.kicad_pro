@@ -1100,6 +1100,12 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKeyPN",
+          "name": "DigiKeyPN",
+          "show": false
         }
       ],
       "filter_string": "",
