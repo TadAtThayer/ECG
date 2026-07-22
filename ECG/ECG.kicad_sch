@@ -11948,15 +11948,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "SM5817PL-TP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "~"
 			(at 267.335 138.811 0)
 			(effects
@@ -11986,6 +11977,15 @@
 		)
 		(property "Description" "Schottky diode, low leakage"
 			(at 264.16 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5817PL-TP"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,15 +12517,6 @@
 				)
 			)
 		)
-		(property "MPN" "PH2-10-UA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_02x05_Odd_Even"
 			(at 46.355 160.02 0)
 			(effects
@@ -12555,6 +12546,15 @@
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 45.085 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH2-10-UA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,15 +12646,6 @@
 				)
 			)
 		)
-		(property "MPN" "691137710002"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_01x02"
 			(at 271.78 151.7651 0)
 			(effects
@@ -12685,6 +12676,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 269.24 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "691137710002"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,15 +12846,6 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "BC2032-E2"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "BC2032-E2"
 			(at 207.264 154.432 90)
 			(effects
@@ -12885,6 +12876,15 @@
 		)
 		(property "Description" ""
 			(at 222.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BC2032-E2"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,15 +13226,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT220K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "220K"
 			(at 60.071 65.405 90)
 			(effects
@@ -13263,6 +13254,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 61.595 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT220K"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,15 +13348,6 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 273.939 66.294 0)
 			(effects
@@ -13385,6 +13376,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13536,15 +13536,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "RC0603JR-071ML"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1M"
 			(at 75.565 145.4149 0)
 			(effects
@@ -13574,6 +13565,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 73.66 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-071ML"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13725,24 +13725,6 @@
 				)
 			)
 		)
-		(property "MPN" "61303021121"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6461561"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_02x15_Odd_Even"
 			(at 145.415 134.62 0)
 			(effects
@@ -13772,6 +13754,24 @@
 		)
 		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 144.145 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61303021121"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6461561"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,15 +13906,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "PPPC151LFBN-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Socket 1x15"
 			(at 196.215 38.7349 0)
 			(effects
@@ -13945,6 +13936,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC151LFBN-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,15 +14421,6 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603JR-071ML"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1M"
 			(at 121.031 99.822 90)
 			(effects
@@ -14458,6 +14449,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 121.285 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-071ML"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14544,15 +14544,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 273.939 66.294 0)
 			(effects
@@ -14581,6 +14572,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14735,15 +14735,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "PH1-02-UA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_01x02"
 			(at 115.57 151.1299 0)
 			(effects
@@ -14774,6 +14765,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH1-02-UA"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,24 +14967,6 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "PH2-08-UA"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3329181"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_02x04_Odd_Even"
 			(at 241.3 154.3049 90)
 			(effects
@@ -15015,6 +14997,24 @@
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 233.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PH2-08-UA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3329181"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15235,15 +15235,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 57.1499 0)
 			(effects
@@ -15274,6 +15265,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15359,15 +15359,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1nF"
 			(at 56.896 89.789 0)
 			(effects
@@ -15396,6 +15387,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,15 +15593,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1nF"
 			(at 56.896 89.789 0)
 			(effects
@@ -15630,6 +15621,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,15 +15884,6 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB105"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1u"
 			(at 75.184 27.051 0)
 			(effects
@@ -15921,6 +15912,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 71.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB105"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,15 +16073,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 22.2249 0)
 			(effects
@@ -16112,6 +16103,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,15 +16265,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 50.1649 0)
 			(effects
@@ -16304,6 +16295,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16388,15 +16388,6 @@
 				)
 			)
 		)
-		(property "MPN" "T2N7002AK,LM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "T2N7002AK"
 			(at 187.96 101.6 90)
 			(effects
@@ -16429,6 +16420,15 @@
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17172,15 +17172,6 @@
 				)
 			)
 		)
-		(property "MPN" "T2N7002AK,LM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "T2N7002AK"
 			(at 177.8 101.6 90)
 			(effects
@@ -17213,6 +17204,15 @@
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17301,15 +17301,6 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "61300311121"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_01x03"
 			(at 183.515 78.7399 90)
 			(effects
@@ -17340,6 +17331,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300311121"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17677,15 +17677,6 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "SM5817PL-TP"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "~"
 			(at 51.435 155.829 0)
 			(effects
@@ -17715,6 +17706,15 @@
 		)
 		(property "Description" "Schottky diode, low leakage"
 			(at 54.61 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5817PL-TP"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17868,15 +17868,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "T2N7002AK,LM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "T2N7002AK"
 			(at 80.645 165.0999 0)
 			(effects
@@ -17910,6 +17901,15 @@
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 86.36 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17998,15 +17998,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "T2N7002AK,LM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "T2N7002AK"
 			(at 34.925 173.3549 0)
 			(effects
@@ -18040,6 +18031,15 @@
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 29.21 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,15 +18195,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1nF"
 			(at 56.896 89.789 0)
 			(effects
@@ -18232,6 +18223,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18382,15 +18382,6 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 95.631 101.219 0)
 			(effects
@@ -18419,6 +18410,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.695 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19124,15 +19124,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "61300311121"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_01x03"
 			(at 41.91 88.8999 90)
 			(effects
@@ -19163,6 +19154,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300311121"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19317,15 +19317,6 @@
 				)
 			)
 		)
-		(property "MPN" "SLW-118562-4A-N-D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "SLW-118562-4A-N-D"
 			(at 249.555 125.095 0)
 			(effects
@@ -19355,6 +19346,15 @@
 		)
 		(property "Description" ""
 			(at 249.555 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLW-118562-4A-N-D"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20286,15 +20286,6 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1nF"
 			(at 92.837 77.978 0)
 			(effects
@@ -20323,6 +20314,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 95.885 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20681,24 +20681,6 @@
 				(justify right)
 			)
 		)
-		(property "MPN" "OPA237NA/3K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C90349"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "OPA237NA/3K"
 			(at 70.485 120.015 0)
 			(effects
@@ -20730,6 +20712,24 @@
 		)
 		(property "Description" "Low Power Op Amp"
 			(at 86.995 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA237NA/3K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90349"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20789,15 +20789,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "61300311121"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_01x03"
 			(at 150.495 68.5799 0)
 			(effects
@@ -20827,6 +20818,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 147.955 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300311121"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21049,15 +21049,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1nF"
 			(at 56.896 89.789 0)
 			(effects
@@ -21086,6 +21077,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21553,15 +21553,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT6K80"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "6.8K"
 			(at 109.982 164.719 90)
 			(effects
@@ -21590,6 +21581,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 107.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT6K80"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21674,15 +21674,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT100K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100K"
 			(at 115.951 99.822 90)
 			(effects
@@ -21711,6 +21702,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 116.205 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100K"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21797,15 +21797,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 273.939 66.294 0)
 			(effects
@@ -21834,6 +21825,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22809,15 +22809,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "DMG2301L-7"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "DMG2301L"
 			(at 99.06 151.1299 0)
 			(effects
@@ -22850,6 +22841,15 @@
 		)
 		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
 			(at 93.345 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMG2301L-7"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23266,15 +23266,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "RC0603JR-071ML"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1M"
 			(at 33.655 156.8449 0)
 			(effects
@@ -23304,6 +23295,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 31.75 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603JR-071ML"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23388,15 +23388,6 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 133.604 43.561 0)
 			(effects
@@ -23425,6 +23416,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23645,15 +23645,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 29.2099 0)
 			(effects
@@ -23684,6 +23675,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23938,15 +23938,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "PPPC151LFBN-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Socket 1x15"
 			(at 191.135 38.7349 0)
 			(effects
@@ -23977,6 +23968,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 187.96 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC151LFBN-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24237,15 +24237,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 273.939 66.294 0)
 			(effects
@@ -24274,6 +24265,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 269.875 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24561,15 +24561,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 36.1949 0)
 			(effects
@@ -24600,6 +24591,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24684,15 +24684,6 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B104KB8NNNC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "100nF"
 			(at 93.599 125.476 0)
 			(effects
@@ -24721,6 +24712,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 89.535 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25048,15 +25048,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT470K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "470K"
 			(at 82.677 25.4 90)
 			(effects
@@ -25085,6 +25076,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 84.455 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT470K"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25351,15 +25351,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT330K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "330K"
 			(at 48.387 78.486 90)
 			(effects
@@ -25388,6 +25379,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 48.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT330K"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25473,24 +25473,6 @@
 				)
 			)
 		)
-		(property "MPN" "61303021121"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6461561"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Conn_02x15_Odd_Even"
 			(at 160.655 134.62 0)
 			(effects
@@ -25520,6 +25502,24 @@
 		)
 		(property "Description" "Generic connector, double row, 02x15, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 159.385 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61303021121"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6461561"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25786,15 +25786,6 @@
 				(justify left)
 			)
 		)
-		(property "MPN" "T2N7002AK,LM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "T2N7002AK"
 			(at 76.835 165.0999 0)
 			(effects
@@ -25828,6 +25819,15 @@
 		)
 		(property "Description" "60V Vds, 0.2A Id, N-Channel MOSFET, SOT-23"
 			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "T2N7002AK,LM"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26197,15 +26197,6 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT220K"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "220K"
 			(at 60.325 70.612 90)
 			(effects
@@ -26234,6 +26225,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 61.595 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT220K"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26318,15 +26318,6 @@
 				)
 			)
 		)
-		(property "MPN" "AD8232ACPZ-R7"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "AD8232ACPZ-R7"
 			(at 114.173 64.516 0)
 			(effects
@@ -26357,6 +26348,15 @@
 		)
 		(property "Description" ""
 			(at 98.425 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8232ACPZ-R7"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26607,15 +26607,6 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206FR-071KL"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "1k"
 			(at 127.508 107.696 90)
 			(effects
@@ -26651,6 +26642,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW06031K00FKEA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Sim.Device" ""
 			(at 129.54 105.41 90)
 			(effects
@@ -26669,7 +26669,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigikeyPN" "311-1.00KFRCT-ND"
+		(property "DigikeyPN" "541-1.00KHCT-ND"
 			(at 129.54 105.41 90)
 			(effects
 				(font
@@ -26678,7 +26678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C131398"
+		(property "LCSC" "C844920"
 			(at 129.54 105.41 90)
 			(effects
 				(font
@@ -26863,15 +26863,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NPC02SXON-RC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Value" "Shunt block"
 			(at 172.085 43.1799 0)
 			(effects
@@ -26902,6 +26893,15 @@
 		)
 		(property "Description" "100 Mil shorting block"
 			(at 169.545 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NPC02SXON-RC"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
